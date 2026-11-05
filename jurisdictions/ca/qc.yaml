@@ -1,0 +1,63 @@
+code: CA-QC
+name: {en: Québec, fr: Québec}
+rows:
+  - id: ACC-001
+    text: {en: "Public bodies meet WCAG 2.1 levels A and AA, except criteria 1.2.4 and 1.2.5 on live captions and audio description. They also meet the new level A and AA criteria of WCAG 2.2.", fr: "Les organismes publics respectent les niveaux A et AA des WCAG 2.1, sauf les critères 1.2.4 et 1.2.5 sur le sous-titrage en direct et l’audiodescription. Ils respectent aussi les nouveaux critères des niveaux A et AA des WCAG 2.2."}
+    status: looser
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-002
+    text: {en: "The standard covers web content on every device, with public sites, intranets, extranets, forms, downloadable documents and media. It applies to new content and to content that changes a lot. Mobile apps are not named.", fr: "Le standard couvre le contenu Web sur tout appareil, avec les sites publics, les intranets, les extranets, les formulaires, les documents téléchargeables et les contenus multimédias. Il s’applique au nouveau contenu et au contenu qui subit une modification importante. Les applications mobiles ne sont pas nommées."}
+    status: looser
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-003
+    text: {en: "The standard adds the level AAA criteria 2.3.2, 2.5.6, 3.1.4 and 2.4.13.", fr: "Le standard ajoute les critères de niveau AAA 2.3.2, 2.5.6, 3.1.4 et 2.4.13."}
+    status: same
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-004
+    text: {en: "For prerecorded audio, public bodies consider criterion 1.2.6 with Québec Sign Language.", fr: "Pour l’audio préenregistré, les organismes publics envisagent le critère 1.2.6 avec la langue des signes québécoise."}
+    status: same
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-006
+    text: {en: "Exempt content includes third-party content, social media, live video, games, web maps, raw open data and scanned-only content. Exempt content carries a warning, and is made accessible or comes with help on request.", fr: "Le contenu exempté comprend le contenu de tiers, les médias sociaux, la vidéo en direct, les jeux, la cartographie Web, les données ouvertes brutes et le contenu offert seulement en image numérisée. Le contenu exempté porte un avertissement, et il est rendu accessible ou accompagné d’aide sur demande."}
+    status: looser
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-013
+    text: {en: "Criterion 2.4.13 Focus Appearance applies, with criterion 2.4.11 on focus that content covers.", fr: "Le critère 2.4.13 sur l’apparence du focus s’applique, avec le critère 2.4.11 sur le focus masqué par du contenu."}
+    status: same
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-015
+    text: {en: "Criterion 2.5.8 applies: 24 by 24 CSS pixels, with its exceptions. The standard sets no larger size for touch screens.", fr: "Le critère 2.5.8 s’applique : 24 sur 24 pixels CSS, avec ses exceptions. Le standard ne fixe aucune taille plus grande pour les écrans tactiles."}
+    status: same
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-016
+    text: {en: "Criterion 2.3.2 applies: no more than three flashes in any second, with no threshold.", fr: "Le critère 2.3.2 s’applique : au plus trois flashs par seconde, sans seuil."}
+    status: same
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-030
+    text: {en: "Downloadable documents are in scope as web content. Content offered only as a scanned image is exempt. The standard names no PDF format.", fr: "Les documents téléchargeables sont visés comme contenu Web. Le contenu offert seulement en image numérisée est exempté. Le standard ne nomme aucun format PDF."}
+    status: looser
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-042
+    text: {en: "The head of each body has the audits done that verify conformity, and applies the fixes. The standard sets no test method or sample.", fr: "La personne qui dirige l’organisme fait faire les audits qui vérifient la conformité et applique les correctifs. Le standard ne fixe aucune méthode d’essai ni aucun échantillon."}
+    status: looser
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-050
+    text: {en: "Every web page links to an Accessibilité page, which the head of the body keeps current.", fr: "Chaque page Web a un lien vers une page Accessibilité, que la personne qui dirige l’organisme tient à jour."}
+    status: same
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"
+  - id: ACC-051
+    text: {en: "The page links to the standard, names each assistive technology used to verify conformity with its version, describes each icon and offers help. It need not state a level, the known gaps or a date.", fr: "La page a un lien vers le standard, nomme chaque technologie d’assistance employée pour vérifier la conformité avec sa version, décrit chaque icône et offre de l’aide. Elle n’a pas à indiquer un niveau, les écarts connus ni une date."}
+    status: looser
+    source: {title: "Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)", version: "3.0, in force since 2024-04-29", date: "2026-06-08", url: "https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web", archive: "https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web"}
+    last_checked: "2026-11-05"

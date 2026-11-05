@@ -1,0 +1,98 @@
+= Essais
+include::_fpsot-terms.adoc[]
+
+Ces règles fixent comment une équipe vérifie un produit par rapport à la base, et ce qu’elle consigne.
+Les outils ne trouvent qu’une partie des obstacles.
+Les règles combinent donc des vérifications automatisées, manuelles et avec des technologies d’assistance.
+
+== Vérifications automatisées
+
+[[ACC-040]]
+*ACC-040.* Un projet DOIT lancer des vérifications automatisées de l’accessibilité dans son {abbr-ci-first} à chaque changement.
+Cela vise chaque changement à un écran, à un gabarit ou à un générateur de documents.
+Les vérifications DEVRAIENT employer un moteur de règles qui met en œuvre les link:https://www.w3.org/WAI/standards-guidelines/act/rules/[règles ACT] du {abbr-w3c-first}.
+Un nouvel échec DOIT bloquer la fusion.
+Les vérifications automatisées détectent tôt les erreurs courantes, quand leur correction coûte le moins.
+
+[[ACC-041]]
+*ACC-041.* Une équipe NE DOIT PAS déclarer la conformité à partir des seuls résultats automatisés.
+Les outils ne testent qu’une partie des critères de succès.
+Ils ne jugent pas si un équivalent textuel ou une étiquette a du sens.
+
+== Vérifications manuelles et avec des technologies d’assistance
+
+[[ACC-042]]
+*ACC-042.* Une équipe DOIT vérifier à la main chaque critère des exigences ACC-001 et ACC-003 avant chaque version.
+Cela vise chaque version qui change ce que les personnes voient ou emploient.
+L’équipe DOIT vérifier un échantillon choisi selon la méthode link:https://www.w3.org/TR/WCAG-EM/[WCAG-EM 2.0].
+L’échantillon couvre les écrans courants, chaque étape de chaque processus complet et un ensemble aléatoire.
+Un échantillon choisi selon une méthode donne un résultat qu’une autre équipe reproduit.
+
+[[ACC-043]]
+*ACC-043.* La vérification manuelle DOIT comprendre les vérifications suivantes, en français et en anglais.
+
+. Un parcours au clavier seul.
+
+. Un parcours avec un lecteur d’écran et un navigateur sur chaque plateforme de bureau que le produit prend en charge.
+
+. Un parcours avec le lecteur d’écran de chaque plateforme mobile que le produit prend en charge.
+
+. Un parcours avec le texte à 200 % et avec la page agrandie à 400 %.
+
+L’équipe DEVRAIT aussi tester la commande vocale et la loupe d’écran.
+Les technologies d’assistance réagissent d’une façon que la revue du code et les outils ne prévoient pas.
+
+[[ACC-044]]
+*ACC-044.* Une équipe DEVRAIT inclure des personnes handicapées dans les tests d’utilisabilité avant chaque version majeure.
+Les personnes qui emploient des technologies d’assistance chaque jour trouvent des obstacles que les spécialistes ne voient pas.
+
+== Registre d’essai
+
+[[ACC-045]]
+*ACC-045.* Chaque essai DOIT produire un registre d’essai qui contient les éléments suivants.
+
+. Le produit, sa version et la date de l’essai.
+
+. Les normes et le niveau vérifiés, comme le niveau AA des link:https://www.w3.org/TR/WCAG22/[WCAG 2.2] avec l’exigence ACC-003.
+
+. L’échantillon, avec l’adresse ou le chemin de chaque écran et de chaque document.
+
+. Le résultat de chaque critère : réussi, échoué ou sans objet, avec une note pour chaque échec.
+
+. Le nom et la version de chaque outil, navigateur et technologie d’assistance employés.
+
+. Le rôle de chaque personne qui a testé, sans autre détail personnel que ce que l’équipe accepte de publier.
+
+Un registre permet à l’équipe, à l’organisme acheteur et au public de voir ce que l’équipe a testé et comment.
+
+[[ACC-046]]
+*ACC-046.* Un projet DOIT conserver chaque registre d’essai au moins quatre ans, dans un format texte sous gestion de versions.
+La déclaration sur l’accessibilité et le rapport de conformité DOIVENT citer le registre d’essai sur lequel ils s’appuient.
+Les link:https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-fra.html[règles fédérales canadiennes] exigent quatre ans pour les évaluations de conformité.
+Avec un format texte, un outil compare facilement deux registres.
+
+[[ACC-047]]
+*ACC-047.* Chaque échec DOIT devenir un ticket qui nomme le critère et l’écran.
+L’équipe DOIT corriger avant la version tout échec qui bloque une tâche sans autre moyen de la terminer.
+Les autres échecs DOIVENT figurer dans la déclaration sur l’accessibilité avec une date prévue.
+Un ticket suivi reste visible d’une version à l’autre.
+
+== Références
+
+=== Références normatives
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, recommandation du W3C, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Copie archivée]
+* link:https://www.w3.org/TR/WCAG-EM/[WCAG Evaluation Methodology (WCAG-EM) 2.0], W3C, note de groupe du W3C, 2026-07-23. link:https://web.archive.org/web/20261024202245/https://www.w3.org/TR/WCAG-EM/[Copie archivée]
+
+=== Références informatives
+
+* link:https://www.w3.org/WAI/standards-guidelines/act/rules/[All ACT Rules], W3C. link:https://web.archive.org/web/20261015044940/https://www.w3.org/WAI/standards-guidelines/act/rules/[Copie archivée]
+* link:https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-fra.html[Règlement modifiant le Règlement canadien sur l’accessibilité, DORS/2025-255], Gazette du Canada, Partie II, enregistré le 2025-12-05, 2025-12-17. link:https://web.archive.org/web/20260801203247/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-fra.html[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-05 |Première version.
+|===

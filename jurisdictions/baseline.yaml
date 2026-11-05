@@ -1,12 +1,144 @@
 # Comparison data. The format is defined by fpsot-spec-doc (model/jurisdiction.yaml).
-# This example row compares requirement TPL-001. Replace it with the rows of this specification.
-# Add one file per jurisdiction, such as ca.yaml or ca/qc.yaml, only when a source exists.
 topics:
-  keywords: {en: Requirement keywords, fr: Mots clés des exigences}
+  baseline: {en: Accessibility baseline, fr: Base d’accessibilité}
+  scope: {en: Scope and exceptions, fr: Portée et exceptions}
+  values: {en: "Contrast, focus, targets and motion", fr: "Contraste, focus, cibles et mouvement"}
+  text-alternatives: {en: Text alternatives, fr: Équivalents textuels}
+  documents: {en: Documents, fr: Documents}
+  mobile-apps: {en: Mobile apps, fr: Applications mobiles}
+  testing: {en: Testing and test records, fr: Essais et registres d’essais}
+  statements: {en: Accessibility statements, fr: Déclarations sur l’accessibilité}
+  procurement: {en: Procurement, fr: Acquisition}
 rows:
-  - id: TPL-001
-    topic: keywords
-    requirement: {en: Use the BCP 14 keywords., fr: Utiliser les mots clés du BCP 14.}
-    international: {en: "BCP 14 defines MUST, SHOULD and MAY. Only the capital forms carry that meaning.", fr: "Le BCP 14 définit MUST, SHOULD et MAY. Seules les majuscules ont ce sens."}
-    international_source: {title: "RFC 8174, Ambiguity of Uppercase vs Lowercase in RFC 2119 Key Words (BCP 14)", version: "BCP 14", date: "2017-05", url: "https://www.rfc-editor.org/info/rfc8174", archive: "https://web.archive.org/web/20261103005743/https://www.rfc-editor.org/info/rfc8174/"}
-    fpsot: {en: "Keywords in capitals, with a fixed French mapping.", fr: "Mots clés en majuscules, avec une correspondance française fixe."}
+  - id: ACC-001
+    topic: baseline
+    requirement: {en: "Every product meets WCAG 2.2 level AA.", fr: "Chaque produit respecte le niveau AA des WCAG 2.2."}
+    international: {en: "WCAG 2.2 has three levels, A, AA and AAA. A page conforms at a level when it meets every criterion of that level and the levels below.", fr: "Les WCAG 2.2 ont trois niveaux, A, AA et AAA. Une page est conforme à un niveau quand elle respecte chaque critère de ce niveau et des niveaux inférieurs."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "Every level A and AA criterion of WCAG 2.2, with its five conformance requirements.", fr: "Chaque critère des niveaux A et AA des WCAG 2.2, avec ses cinq exigences de conformité."}
+  - id: ACC-002
+    topic: scope
+    requirement: {en: "The baseline covers web pages, documents and mobile apps, for the public and for staff.", fr: "La base couvre les pages Web, les documents et les applications mobiles, pour le public et pour le personnel."}
+    international: {en: "EN 301 549 applies to all ICT: web pages in clause 9, documents in clause 10 and software, including mobile apps, in clause 11.", fr: "La norme EN 301 549 s’applique à toutes les TIC : les pages Web à l’article 9, les documents à l’article 10 et les logiciels, y compris les applications mobiles, à l’article 11."}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    fpsot: {en: "Every web page, document and mobile app that a product publishes or generates, including staff and administrator screens.", fr: "Chaque page Web, document et application mobile qu’un produit publie ou produit, y compris les écrans du personnel et de l’administration."}
+  - id: ACC-003
+    topic: baseline
+    requirement: {en: "Four level AAA criteria are added to the baseline.", fr: "Quatre critères de niveau AAA s’ajoutent à la base."}
+    international: {en: "WCAG does not recommend requiring level AAA for whole sites, because some content cannot meet every AAA criterion.", fr: "Les WCAG ne recommandent pas d’exiger le niveau AAA pour des sites entiers, car certains contenus ne peuvent pas respecter chaque critère AAA."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "2.3.2 Three Flashes, 2.4.13 Focus Appearance, 2.5.6 Concurrent Input Mechanisms and 3.1.4 Abbreviations.", fr: "Les critères 2.3.2 sur les flashs, 2.4.13 sur l’apparence du focus, 2.5.6 sur les mécanismes de saisie et 3.1.4 sur les abréviations."}
+  - id: ACC-004
+    topic: baseline
+    requirement: {en: "Sign language for prerecorded audio.", fr: "Langue des signes pour l’audio préenregistré."}
+    international: {en: "Criterion 1.2.6, level AAA, asks for sign language interpretation of prerecorded audio in synchronized media.", fr: "Le critère 1.2.6, de niveau AAA, demande une interprétation en langue des signes de l’audio préenregistré dans les médias synchronisés."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "A Québec deployment should offer Québec Sign Language for key prerecorded audio. Other deployments in Canada may offer it, or American Sign Language.", fr: "Un déploiement au Québec devrait offrir la langue des signes québécoise pour l’audio préenregistré essentiel. Les autres déploiements au Canada peuvent l’offrir, ou l’American Sign Language."}
+  - id: ACC-005
+    topic: baseline
+    requirement: {en: "No product targets an older WCAG version.", fr: "Aucun produit ne vise une version plus ancienne des WCAG."}
+    international: {en: "Content that meets WCAG 2.2 also meets WCAG 2.1 and 2.0 at the same level. WCAG 3 is still a draft.", fr: "Un contenu qui respecte les WCAG 2.2 respecte aussi les WCAG 2.1 et 2.0 au même niveau. Les WCAG 3 sont encore à l’état d’ébauche."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "WCAG 2.2, even where a jurisdiction still accepts 2.0 or 2.1. A later W3C Recommendation may be met as well.", fr: "Les WCAG 2.2, même là où une administration accepte encore la version 2.0 ou 2.1. Une recommandation plus récente du W3C peut aussi être respectée."}
+  - id: ACC-006
+    topic: scope
+    requirement: {en: "No exemption for content the team controls.", fr: "Aucune exemption pour le contenu que l’équipe maîtrise."}
+    international: {en: "A conformance claim may exclude content that the author does not control, if the claim says so.", fr: "Une déclaration de conformité peut exclure le contenu que l’auteur ne maîtrise pas, si elle l’indique."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "Own content is never exempt. Third-party content appears in the statement as a gap, and is offered in an accessible form on request.", fr: "Le contenu propre n’est jamais exempté. Le contenu de tiers figure dans la déclaration comme un écart et est offert sous une forme accessible sur demande."}
+  - id: ACC-010
+    topic: values
+    requirement: {en: "Text contrast.", fr: "Contraste du texte."}
+    international: {en: "Criterion 1.4.3, level AA: 4.5:1 for text, and 3:1 for large text.", fr: "Critère 1.4.3, niveau AA : 4,5:1 pour le texte, et 3:1 pour le grand texte."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "4.5:1 and 3:1, in every theme, mode and state.", fr: "4,5:1 et 3:1, dans chaque thème, mode et état."}
+  - id: ACC-013
+    topic: values
+    requirement: {en: "Focus indicator.", fr: "Indicateur de focus."}
+    international: {en: "Criterion 2.4.7, level AA, asks only for a visible focus. Criterion 2.4.13, level AAA, sets a size of 2 CSS pixels around the component and a 3:1 change.", fr: "Le critère 2.4.7, de niveau AA, demande seulement un focus visible. Le critère 2.4.13, de niveau AAA, fixe une taille de 2 pixels CSS autour du composant et un changement de 3:1."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "Criterion 2.4.13 for every focusable component. The browser outline stays unless a compliant replacement exists.", fr: "Le critère 2.4.13 pour chaque composant qui reçoit le focus. Le contour du navigateur reste, sauf si un remplacement conforme existe."}
+  - id: ACC-015
+    topic: values
+    requirement: {en: "Target size.", fr: "Taille des cibles."}
+    international: {en: "Criterion 2.5.8, level AA: 24 by 24 CSS pixels, with exceptions. Criterion 2.5.5, level AAA: 44 by 44 CSS pixels.", fr: "Critère 2.5.8, niveau AA : 24 sur 24 pixels CSS, avec des exceptions. Critère 2.5.5, niveau AAA : 44 sur 44 pixels CSS."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "24 by 24 CSS pixels at least. Touch screens and mobile apps should use 44 by 44.", fr: "Au moins 24 sur 24 pixels CSS. Les écrans tactiles et les applications mobiles devraient employer 44 sur 44."}
+  - id: ACC-016
+    topic: values
+    requirement: {en: "Flashing content.", fr: "Contenu qui clignote."}
+    international: {en: "Criterion 2.3.1, level A, allows more than three flashes a second below a size and brightness threshold. Criterion 2.3.2, level AAA, has no threshold.", fr: "Le critère 2.3.1, de niveau A, permet plus de trois flashs par seconde sous un seuil de taille et de luminosité. Le critère 2.3.2, de niveau AAA, n’a aucun seuil."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "Three flashes a second at most, with no threshold.", fr: "Au plus trois flashs par seconde, sans seuil."}
+  - id: ACC-017
+    topic: values
+    requirement: {en: "Motion and animation.", fr: "Mouvement et animation."}
+    international: {en: "Criterion 2.2.2, level A, needs a pause control for motion over five seconds. Criterion 2.3.3, level AAA, lets people turn off motion from interactions.", fr: "Le critère 2.2.2, de niveau A, exige une commande de pause pour un mouvement de plus de cinq secondes. Le critère 2.3.3, de niveau AAA, permet de désactiver le mouvement causé par les interactions."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "A pause control, and no motion that is not essential when the reduced motion setting is on.", fr: "Une commande de pause, et aucun mouvement non essentiel quand le réglage de réduction des animations est actif."}
+  - id: ACC-018
+    topic: text-alternatives
+    requirement: {en: "Text alternatives for images, charts and diagrams.", fr: "Équivalents textuels des images, des graphiques et des diagrammes."}
+    international: {en: "Criterion 1.1.1, level A: non-text content has a text alternative with the same purpose. Decorative content is hidden from assistive technologies.", fr: "Critère 1.1.1, niveau A : le contenu non textuel a un équivalent textuel de même fonction. Le contenu décoratif est masqué aux technologies d’assistance."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "A text alternative for each image with meaning, and a longer description, such as a data table, for each chart and diagram.", fr: "Un équivalent textuel pour chaque image qui a un sens, et une description longue, comme un tableau de données, pour chaque graphique et diagramme."}
+  - id: ACC-027
+    topic: mobile-apps
+    requirement: {en: "Mobile apps meet the baseline.", fr: "Les applications mobiles respectent la base."}
+    international: {en: "Clause 11 of EN 301 549 applies the WCAG criteria to software, including mobile apps, and adds rules on platform services.", fr: "L’article 11 de la norme EN 301 549 applique les critères des WCAG aux logiciels, y compris les applications mobiles, et ajoute des règles sur les services de la plateforme."}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    fpsot: {en: "The baseline as WCAG2ICT applies it, clause 11, the platform accessibility services and the system text size.", fr: "La base telle que WCAG2ICT l’applique, l’article 11, les services d’accessibilité de la plateforme et la taille du texte du système."}
+  - id: ACC-030
+    topic: documents
+    requirement: {en: "Digital documents meet the baseline.", fr: "Les documents numériques respectent la base."}
+    international: {en: "Clause 10 of EN 301 549 applies the WCAG criteria to documents that are not web pages.", fr: "L’article 10 de la norme EN 301 549 applique les critères des WCAG aux documents qui ne sont pas des pages Web."}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    fpsot: {en: "The baseline as WCAG2ICT applies it, and clause 10. PDF files are tagged from structured source, and never only a scanned image.", fr: "La base telle que WCAG2ICT l’applique, et l’article 10. Les fichiers PDF sont balisés à partir d’une source structurée, et jamais une simple image numérisée."}
+  - id: ACC-042
+    topic: testing
+    requirement: {en: "Manual checks on a sample chosen by method.", fr: "Vérifications manuelles sur un échantillon choisi selon une méthode."}
+    international: {en: "WCAG-EM 2.0 sets five steps: scope, explore, sample, evaluate and report. The sample holds common views, complete processes and a random set.", fr: "La WCAG-EM 2.0 fixe cinq étapes : portée, exploration, échantillon, évaluation et rapport. L’échantillon comprend les vues courantes, les processus complets et un ensemble aléatoire."}
+    international_source: {title: "WCAG Evaluation Methodology (WCAG-EM) 2.0", version: "W3C Group Note", date: "2026-07-23", url: "https://www.w3.org/TR/WCAG-EM/", archive: "https://web.archive.org/web/20261024202245/https://www.w3.org/TR/WCAG-EM/"}
+    fpsot: {en: "Every criterion checked by hand before each release that changes the screens, on a WCAG-EM sample.", fr: "Chaque critère vérifié à la main avant chaque version qui change les écrans, sur un échantillon WCAG-EM."}
+  - id: ACC-045
+    topic: testing
+    requirement: {en: "Each test produces a test record.", fr: "Chaque essai produit un registre d’essai."}
+    international: {en: "WCAG-EM 2.0 reports the scope, the sample, the result of each criterion, and the tools and assistive technologies used.", fr: "La WCAG-EM 2.0 consigne la portée, l’échantillon, le résultat de chaque critère, et les outils et technologies d’assistance employés."}
+    international_source: {title: "WCAG Evaluation Methodology (WCAG-EM) 2.0", version: "W3C Group Note", date: "2026-07-23", url: "https://www.w3.org/TR/WCAG-EM/", archive: "https://web.archive.org/web/20261024202245/https://www.w3.org/TR/WCAG-EM/"}
+    fpsot: {en: "Product, version and date, standards, sample, result per criterion, tools and assistive technologies with versions, and the roles of the testers.", fr: "Produit, version et date, normes, échantillon, résultat par critère, outils et technologies d’assistance avec leur version, et rôle des personnes qui testent."}
+  - id: ACC-046
+    topic: testing
+    requirement: {en: "Test records are kept.", fr: "Les registres d’essais sont conservés."}
+    international: {en: "WCAG-EM 2.0 asks for a report of the findings. It sets no time to keep it.", fr: "La WCAG-EM 2.0 demande un rapport des résultats. Elle ne fixe aucune durée de conservation."}
+    international_source: {title: "WCAG Evaluation Methodology (WCAG-EM) 2.0", version: "W3C Group Note", date: "2026-07-23", url: "https://www.w3.org/TR/WCAG-EM/", archive: "https://web.archive.org/web/20261024202245/https://www.w3.org/TR/WCAG-EM/"}
+    fpsot: {en: "At least four years, in a text format under version control.", fr: "Au moins quatre ans, dans un format texte sous gestion de versions."}
+  - id: ACC-050
+    topic: statements
+    requirement: {en: "Each deployment publishes an accessibility statement.", fr: "Chaque déploiement publie une déclaration sur l’accessibilité."}
+    international: {en: "A WCAG conformance claim is optional. When one exists, it states the date, the version, the level, the pages covered and the technologies relied on.", fr: "Une déclaration de conformité aux WCAG est facultative. Si elle existe, elle indique la date, la version, le niveau, les pages visées et les technologies sur lesquelles le contenu s’appuie."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "A statement in English and French, linked from every page, from the app home screen or settings, and from each document download page.", fr: "Une déclaration en français et en anglais, accessible par un lien depuis chaque page, l’accueil ou les réglages de l’application et chaque page de téléchargement."}
+  - id: ACC-051
+    topic: statements
+    requirement: {en: "Content of the statement.", fr: "Contenu de la déclaration."}
+    international: {en: "The required parts of a WCAG claim, plus optional parts such as the assistive technologies used in tests.", fr: "Les parties obligatoires d’une déclaration de conformité aux WCAG, et des parties facultatives comme les technologies d’assistance employées dans les essais."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "Standards and level, status, dates, known gaps with plans, assistive technologies with versions, icon meanings, two contact methods and an offer of help.", fr: "Normes et niveau, état, dates, écarts connus avec leur plan, technologies d’assistance avec leur version, sens des icônes, deux moyens de contact et une offre d’aide."}
+  - id: ACC-053
+    topic: statements
+    requirement: {en: "The statement stays current.", fr: "La déclaration reste à jour."}
+    international: {en: "WCAG asks for the date of a claim. It sets no update cycle.", fr: "Les WCAG demandent la date d’une déclaration de conformité. Elles ne fixent aucun cycle de mise à jour."}
+    international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
+    fpsot: {en: "At least every 12 months, and after each release that changes a known gap.", fr: "Au moins tous les 12 mois, et après chaque version qui change un écart connu."}
+  - id: ACC-055
+    topic: procurement
+    requirement: {en: "Calls for tenders require EN 301 549.", fr: "Les appels d’offres exigent la norme EN 301 549."}
+    international: {en: "EN 301 549 V4.1.1 sets the accessibility requirements for ICT that public buyers can cite. It aligns with WCAG 2.2.", fr: "La norme EN 301 549 V4.1.1 fixe les exigences d’accessibilité des TIC que les acheteurs publics peuvent citer. Elle s’aligne sur les WCAG 2.2."}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    fpsot: {en: "EN 301 549 V4.1.1 and ACC-001 to ACC-003, plus any edition that a law names.", fr: "La norme EN 301 549 V4.1.1 et les exigences ACC-001 à ACC-003, ainsi que toute édition qu’une loi nomme."}
+  - id: ACC-056
+    topic: procurement
+    requirement: {en: "Bidders give a conformance report with a gap analysis.", fr: "Les soumissionnaires fournissent un rapport de conformité avec une analyse des écarts."}
+    international: {en: "EN 301 549 gives a test method for each requirement, which a conformance report can follow.", fr: "La norme EN 301 549 donne une méthode d’essai pour chaque exigence, qu’un rapport de conformité peut suivre."}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    fpsot: {en: "A conformance report with a gap analysis, based on a test record. No bare statement of conformance.", fr: "Un rapport de conformité avec une analyse des écarts, fondé sur un registre d’essai. Aucune simple affirmation de conformité."}

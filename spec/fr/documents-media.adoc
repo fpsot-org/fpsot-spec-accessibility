@@ -1,0 +1,72 @@
+= Documents et médias
+include::_fpsot-terms.adoc[]
+
+Ces règles couvrent les documents qu’un produit publie ou produit, ainsi que son audio et sa vidéo.
+Les documents comprennent les avis, les lettres, les rapports et les formulaires, ainsi que les spécifications publiées.
+Chaque règle nomme les critères de succès de la link:https://www.w3.org/TR/WCAG22/[version 2.2] des {abbr-wcag-first}.
+
+== Documents
+
+[[ACC-030]]
+*ACC-030.* Un document numérique DOIT respecter la base telle que link:https://www.w3.org/TR/wcag2ict-22/[WCAG2ICT] l’applique aux documents.
+Il DOIT aussi respecter l’article 10 de la norme link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1], sur les documents.
+Un document est souvent la seule trace qu’une personne reçoit, donc il demande le même soin qu’une page Web.
+
+[[ACC-031]]
+*ACC-031.* Un produit qui produit un fichier {abbr-pdf-first} DOIT le produire en {abbr-pdf} balisé à partir d’une source structurée.
+La spécification de la {abbr-fpsot-first} sur la documentation fixe les formats {abbr-pdf} dans son exigence DOC-042.
+Un produit NE DOIT PAS baliser un fichier terminé comme seul moyen de respecter cette règle.
+Un produit NE DOIT PAS publier une image numérisée comme seule forme d’un document.
+Les balises donnent aux lecteurs d’écran les intertitres, l’ordre de lecture et les tableaux.
+Les balises ajoutées après coup faussent souvent l’ordre de lecture.
+
+[[ACC-032]]
+*ACC-032.* Chaque document DOIT avoir un titre dans ses métadonnées, une langue déclarée et des intertitres dans l’ordre.
+Son ordre de lecture DOIT suivre son sens.
+Chaque tableau DOIT marquer ses cellules d’en-tête.
+Chaque image DOIT avoir un équivalent textuel selon l’exigence ACC-018.
+Un document de plus de 20 pages DEVRAIT avoir des signets qui suivent ses intertitres.
+Les technologies d’assistance emploient cette structure pour lire un document et s’y déplacer.
+
+[[ACC-033]]
+*ACC-033.* Un service DEVRAIT publier son contenu en page Web, et offrir un document seulement comme format de plus.
+Un service NE DOIT PAS exiger un {abbr-pdf} à remplir ou un autre formulaire en document.
+Cette règle vaut quand un formulaire Web suffit à la tâche.
+Les pages Web s’adaptent mieux au zoom, à la taille de l’écran et aux technologies d’assistance que les pages fixes.
+Les formulaires en document échouent souvent avec les lecteurs d’écran et sur les téléphones.
+
+== Audio et vidéo
+
+[[ACC-034]]
+*ACC-034.* Une vidéo préenregistrée avec du son DOIT avoir des sous-titres.
+Elle DOIT aussi avoir une audiodescription quand l’image porte une information que le son ne donne pas.
+Un audio préenregistré seul DOIT avoir une transcription, et une vidéo en direct avec du son DOIT avoir des sous-titres.
+Les sous-titres DOIVENT suivre la langue du son et DEVRAIENT exister dans chaque langue officielle de la vidéo.
+Les personnes sourdes, malentendantes ou aveugles ont besoin d’un autre moyen d’obtenir la même information.
+Les critères 1.2.1, 1.2.2, 1.2.4 et 1.2.5 fixent ces règles.
+
+[[ACC-035]]
+*ACC-035.* Un lecteur multimédia DOIT marcher avec le clavier et avec les technologies d’assistance.
+Il DOIT offrir des commandes pour les sous-titres et l’audiodescription.
+Un média NE DOIT PAS jouer du son de lui-même pendant plus de trois secondes sans commande pour l’arrêter.
+Le son qui démarre seul couvre la voix du lecteur d’écran.
+Le critère 1.4.2 fixe la règle sur le son.
+
+== Références
+
+=== Références normatives
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, recommandation du W3C, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Copie archivée]
+* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC et ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Copie archivée]
+
+=== Références informatives
+
+* link:https://www.w3.org/TR/wcag2ict-22/[Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)], W3C, note de groupe du W3C, 2025-12-11. link:https://web.archive.org/web/20261022204217/https://www.w3.org/TR/wcag2ict-22/[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-05 |Première version.
+|===

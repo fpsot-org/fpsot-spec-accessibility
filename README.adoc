@@ -1,30 +1,23 @@
-= FPSOT specification template
+= FPSOT accessibility specification
 
-This repository is the starting point for an FPSOT specification.
-Create a new repository from it, then replace this text.
-
-== Start a specification
-
-. Set `SPEC_PREFIX` in `.github/workflows/ci.yml` to the three-letter prefix of the requirement IDs.
-. Replace the titles in `spec/`, `docs/antora.yml`, `publiccode.yml`, `AGENTS.md`, `NOTICE` and `skill/SKILL.md`.
-. Replace the example requirement TPL-001 and the example row in `jurisdictions/baseline.yaml`.
-. List each spec page in `spec/<lang>/book.adoc`. The glossary stays the last include.
-
-Each page ends with a document history.
-Each guide page sets `:page-type:` to tutorial, how-to, reference or explanation.
-Write abbreviations and defined terms as `{abbr-…}` and `{term-…}` from the term base of `fpsot-spec-writing`.
-The continuous integration writes `_fpsot-terms.adoc`, the glossaries and the comparison pages. Git ignores them.
+This specification sets how FPSOT products serve people with disabilities.
+Its baseline is WCAG 2.2 level AA, with four level AAA criteria that Québec requires.
+It covers web pages, documents and mobile apps, testing, accessibility statements and procurement with EN 301 549.
+It also owns the values for contrast, focus, target size, motion and text alternatives that the style and diagrams specifications use.
 
 == Implement this spec
 
 Read the normative text in `spec/en/` or `spec/fr/`.
-Each requirement has an ID, such as `XYZ-001`.
-Check your implementation against every requirement.
+Each requirement has an ID, such as `ACC-001`.
+Check each screen, document and app against every requirement, and keep a test record under ACC-045.
+`skill/SKILL.md` gives a one-page summary.
 
 == Adopt this spec
 
 Read the guides in `docs/modules/en/pages/` or `docs/modules/fr/pages/`.
-They explain what the spec gives your organisation and how to require it.
+They explain why one profile serves Canada and Québec, and show how to test a release.
+To require the spec in a call for tenders, cite its version and requirements ACC-055 to ACC-058.
+The comparison data in `jurisdictions/` shows how the federal and Québec rules differ from the FPSOT default.
 
 == Layout
 
@@ -51,7 +44,7 @@ They explain what the spec gives your organisation and how to require it.
 | Comparison data per jurisdiction. `baseline.yaml` lists the compared requirements.
 |===
 
-== Licence
+== License
 
 The specification is under the Community Specification License 1.0.
 Source code is under the Apache License 2.0.

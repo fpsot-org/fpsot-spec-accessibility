@@ -1,7 +1,19 @@
-= Spécification FPSOT sur l'accessibilité
+= Spécification FPSOT sur l’accessibilité
 :doctype: book
 :toc:
 
 include::index.adoc[leveloffset=+1]
+
+include::baseline.adoc[leveloffset=+1]
+
+include::values.adoc[leveloffset=+1]
+
+include::interaction.adoc[leveloffset=+1]
+
+include::documents-media.adoc[leveloffset=+1]
+
+include::testing.adoc[leveloffset=+1]
+
+include::conformance.adoc[leveloffset=+1]
 
 include::glossary.adoc[leveloffset=+1]

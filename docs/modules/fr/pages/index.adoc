@@ -1,16 +1,49 @@
-= Guide
-:translation-status: pending
+= Guide de l’accessibilité
 :page-type: explanation
 include::_fpsot-terms.adoc[]
 
-Cette page explique la spécification aux personnes qui l’adoptent.
-Chaque page de guide a un seul type.
-C’est un tutoriel, un guide pratique, une référence ou une explication.
+Ce guide explique la spécification de la {abbr-fpsot-first} sur l’accessibilité aux équipes qui l’adoptent.
+
+== Pourquoi un seul profil
+
+Le Canada, le Québec et l’Europe nomment chacun une norme d’accessibilité différente.
+Les règles fédérales renvoient à une édition fondée sur une version plus ancienne des règles.
+Le Québec ajoute quelques critères du plus haut niveau.
+Un produit conçu pour l’un d’eux peut échouer chez les autres.
+
+La spécification fixe un seul profil qui les couvre tous.
+Elle reprend le niveau AA de la version actuelle, et ajoute les quatre critères de plus que le Québec exige.
+Un produit qui respecte le profil passe un seul essai, et cet essai sert à chaque organisme acheteur.
+
+== Qui fixe chaque valeur
+
+Les valeurs du contraste, du focus, de la taille des cibles et du mouvement se trouvent seulement dans cette spécification.
+C’est aussi le cas des règles sur les équivalents textuels.
+La spécification sur le style bâtit les thèmes et les jetons de conception sur ces valeurs.
+La spécification sur les diagrammes dessine des graphiques et des diagrammes qui les respectent.
+Aucune des deux ne fixe sa propre valeur, donc un changement se fait à un seul endroit.
+
+== Ce qu’une équipe produit
+
+Une équipe produit trois éléments à chaque version.
+
+. Un registre d’essai, avec l’échantillon, le résultat de chaque critère et les outils employés.
+
+. Un rapport de conformité du produit, tiré du registre d’essai.
+
+. Une déclaration sur l’accessibilité pour chaque déploiement, en français et en anglais.
+
+Les organismes acheteurs demandent le rapport, et le public lit la déclaration.
+
+== Pour aller plus loin
+
+* La page xref:test-a-release.adoc[Tester une version] donne les étapes de chaque version.
+* Le texte normatif se trouve dans `spec/fr/`.
 
 == Historique du document
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Changement
-|0.1.0 |2026-11-03 |Première version.
+|0.1.0 |2026-11-05 |Première version.
 |===
