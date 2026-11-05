@@ -1,0 +1,24 @@
+# FPSOT accessibility specification
+
+> How FPSOT products serve people with disabilities: the WCAG 2.2 level AA baseline with four AAA criteria, the values for contrast, focus, targets, motion and text alternatives, web pages, documents and mobile apps, testing and test records, accessibility statements, and procurement with EN 301 549.
+
+## Specification
+
+- [Overview](spec/en/index.adoc): scope, parts and conformance.
+- [Baseline](spec/en/baseline.adoc): ACC-001 to ACC-006.
+- [Accessibility values](spec/en/values.adoc): ACC-010 to ACC-019.
+- [Web pages and apps](spec/en/interaction.adoc): ACC-020 to ACC-028.
+- [Documents and media](spec/en/documents-media.adoc): ACC-030 to ACC-035.
+- [Testing](spec/en/testing.adoc): ACC-040 to ACC-047.
+- [Statements and procurement](spec/en/conformance.adoc): ACC-050 to ACC-059.
+
+## Guides
+
+- [Accessibility guide](docs/modules/en/pages/index.adoc)
+- [Test a release](docs/modules/en/pages/test-a-release.adoc)
+
+## Optional
+
+- [Agent skill](skill/SKILL.md)
+- [Comparison data](jurisdictions/baseline.yaml)
+- [Français](spec/fr/index.adoc)

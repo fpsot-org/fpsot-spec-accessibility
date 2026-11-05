@@ -1,0 +1,68 @@
+= Base
+include::_fpsot-terms.adoc[]
+
+Ces règles fixent la cible d’accessibilité de chaque produit de la {abbr-fpsot-first} et ce qu’elle couvre.
+La cible forme un seul profil, donc un même résultat d’essai sert au Canada, au Québec et ailleurs.
+
+== Cible
+
+[[ACC-001]]
+*ACC-001.* Un produit DOIT respecter chaque critère de succès des niveaux A et AA de la link:https://www.w3.org/TR/WCAG22/[version 2.2] des {abbr-wcag-first}.
+Il DOIT aussi respecter les cinq exigences de conformité des {abbr-wcag} 2.2, comme les pages complètes et les processus complets.
+Le niveau AA est celui que nomment la plupart des lois et des normes.
+La version 2.2 est la dernière recommandation du {abbr-w3c-first}.
+Elle ajoute des critères sur le focus, les cibles et la connexion.
+
+[[ACC-002]]
+*ACC-002.* La base DOIT s’appliquer à chaque page Web, document numérique et application mobile qu’un produit publie ou produit.
+Elle s’applique aux écrans du personnel et de l’administration autant qu’aux écrans du public.
+Les membres du personnel qui ont un handicap emploient les mêmes outils que tout le monde.
+Une seule portée garde aussi un seul plan d’essai pour tout le produit.
+
+[[ACC-003]]
+*ACC-003.* Un produit DOIT aussi respecter quatre critères de niveau AAA des {abbr-wcag} 2.2.
+Ce sont les critères 2.3.2, 2.4.13, 2.5.6 et 3.1.4, sur les flashs, le focus, la saisie et les abréviations.
+Le standard québécois link:https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[SGQRI 008 3.0] exige ces quatre critères.
+Un produit qui les respecte convient donc aux organismes publics du Québec.
+Ils coûtent peu quand une équipe les prévoit dès le départ.
+
+[[ACC-004]]
+*ACC-004.* Un déploiement au Québec DEVRAIT offrir la langue des signes québécoise pour l’audio préenregistré qui porte une information essentielle.
+Ailleurs au Canada, un déploiement PEUT offrir de même la langue des signes américaine ou québécoise.
+La langue des signes est la première langue de nombreuses personnes sourdes, et les sous-titres ne la remplacent pas.
+Le critère de succès 1.2.6 des {abbr-wcag} 2.2 décrit ce service.
+
+== Versions et exceptions
+
+[[ACC-005]]
+*ACC-005.* Un produit NE DOIT PAS viser une version plus ancienne des {abbr-wcag}, même si une administration l’accepte.
+Un produit PEUT aussi respecter une recommandation plus récente du {abbr-w3c}.
+Les ébauches des {abbr-wcag} 3 ne sont pas une cible.
+Le {abbr-w3c} indique qu’un contenu conforme aux {abbr-wcag} 2.2 est aussi conforme aux versions 2.1 et 2.0, au même niveau.
+Pour les versions 2.0 et 2.1, il considère le critère 4.1.1 sur l’analyse syntaxique comme respecté par le contenu balisé.
+Une seule cible actuelle couvre alors toutes les règles plus anciennes.
+
+[[ACC-006]]
+*ACC-006.* Un produit NE DOIT PAS exempter un contenu que son équipe maîtrise.
+Le contenu d’un tiers, comme une carte intégrée, DOIT figurer dans la déclaration sur l’accessibilité comme un écart connu.
+Le déploiement DOIT offrir ce contenu sous une forme accessible, ou offrir de l’aide, quand une personne le demande.
+Une exemption pour son propre contenu laisserait un écart que personne ne prévoit de combler.
+Les personnes ont tout de même besoin d’un moyen d’accéder à l’information.
+
+== Références
+
+=== Références normatives
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, recommandation du W3C, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Copie archivée]
+
+=== Références informatives
+
+* link:https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[Standard sur l'accessibilité des sites Web (SGQRI 008 3.0)], ministère de la Cybersécurité et du Numérique, 3.0, en vigueur depuis le 2024-04-29, 2026-06-08. link:https://web.archive.org/web/20261103004830/https://www.quebec.ca/gouvernement/ministeres-organismes/cybersecurite-numerique/publications/standard-accessibilite-sites-web[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-05 |Première version.
+|===

@@ -1,0 +1,104 @@
+= Statements and procurement
+include::_fpsot-terms.adoc[]
+
+These rules set how a deployment tells people how accessible it is, and how a buyer requires accessibility.
+A statement and a contract both rest on the test record of ACC-045.
+
+== Accessibility statements
+
+[[ACC-050]]
+*ACC-050.* Each deployment MUST publish an accessibility statement in English and in French.
+Every web page MUST link to it, such as from the footer.
+A mobile app MUST link to it from its home screen or its settings.
+The page from which a person downloads a document MUST link to it as well.
+People need to find out what works, what does not, and whom to ask, from wherever they are.
+
+[[ACC-051]]
+*ACC-051.* An accessibility statement MUST hold these items, in plain language.
+
+. The standards and level that the deployment targets, starting with ACC-001 and ACC-003, and any standard that its jurisdiction requires.
+
+. The status: full, partial or no conformance.
+
+. The date of the statement and the date of the test record it relies on.
+
+. Each known gap, with a way around it and a planned date to fix it.
+
+. The name and version of each assistive technology used in the tests.
+
+. The meaning of each icon that has no visible text label.
+
+. At least two ways to reach the team, such as an email address and a phone number.
+
+. An offer of help or of another format.
+
+These items meet the statement rules of Canada and Québec in one page.
+
+[[ACC-052]]
+*ACC-052.* A deployment MUST NOT claim full conformance while it knows of a failure.
+A claim of conformance MUST hold the parts that section 5.3.1 of link:https://www.w3.org/TR/WCAG22/[WCAG 2.2] requires.
+These parts are the date, the version, the level, the pages covered and the technologies relied on.
+A false claim misleads the people who depend on the product, and the buyer who relies on it.
+
+[[ACC-053]]
+*ACC-053.* A deployment MUST update its statement at least every 12 months.
+It MUST also update it after each release that changes a known gap.
+An old statement soon stops matching the product.
+
+[[ACC-054]]
+*ACC-054.* Each release of an {abbr-fpsot-first} product MUST ship a conformance report.
+The report MUST give the result of each criterion of ACC-001 and ACC-003.
+It MUST also give the result of each clause of link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1] that applies.
+Each deployment can then build its statement from the report and its own tests.
+
+== Procurement
+
+[[ACC-055]]
+*ACC-055.* A buyer that adopts this specification MUST require link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1] in each call for tenders.
+It MUST also require ACC-001 to ACC-003.
+When a law names another edition, like link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[CAN/ASC - EN 301 549:2024], the buyer MUST add it.
+EN 301 549 covers hardware, software, documents and support services, and many governments buy against it.
+Version 4.1.1 brings it in line with {abbr-wcag-first} 2.2.
+
+[[ACC-056]]
+*ACC-056.* A call for tenders MUST ask each bidder for a conformance report with a gap analysis.
+The report covers each required standard.
+The report MUST rest on a test record that meets ACC-045.
+A buyer MUST NOT accept a statement of conformance with no test record behind it.
+Evidence lets the buyer compare bids on facts.
+
+[[ACC-057]]
+*ACC-057.* Before it awards the contract, a buyer SHOULD test a sample of the leading bid itself.
+The test SHOULD use the checks of ACC-043.
+The buyer SHOULD also give accessibility a weight in the scoring of bids.
+A short test before the award costs less than a fix after it.
+
+[[ACC-058]]
+*ACC-058.* A contract MUST require the supplier to fix accessibility failures within an agreed time.
+It MUST require a new conformance report with each major release.
+Conformance can fall with each update, unless the contract holds the supplier to it.
+
+[[ACC-059]]
+*ACC-059.* A project MUST check each outside component against the baseline before it adopts the component.
+Outside components include libraries, widgets and themes.
+The project MUST record each gap that it finds, and fix it or report it upstream.
+A product is only as accessible as its weakest component.
+
+== References
+
+=== Normative
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, W3C Recommendation, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Archived copy]
+* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC and ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Archived copy]
+
+=== Informative
+
+* link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Summary of CAN/ASC - EN 301 549:2024, Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)], Accessibility Standards Canada, 2024, 2024-05. link:https://web.archive.org/web/20260420034312/https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-05 |First version.
+|===

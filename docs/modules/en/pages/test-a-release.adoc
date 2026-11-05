@@ -1,0 +1,44 @@
+= Test a release
+:page-type: how-to
+include::_fpsot-terms.adoc[]
+
+This guide shows how to test a release of a product against the accessibility baseline.
+
+. Check that the automated checks in the {abbr-ci-first} pass on the release branch.
+
+. List the common screens, the complete processes and the documents that the product generates.
+Add a random set of other screens.
+
+. Check each screen of the sample with the keyboard alone.
+Watch the focus indicator at each step.
+
+. Check each screen with a screen reader on each supported platform, in English and in French.
+
+. Check each screen with text at 200% and with the page zoomed to 400%.
+
+. Check each criterion of ACC-001 and ACC-003 on the sample, and note pass, fail or not applicable.
+
+. Open each generated document with a screen reader, and check its tags and its reading order.
+
+. Write the test record, with the name and version of each tool and assistive technology.
+
+. Open an issue for each failure.
+Fix every failure that blocks a task before the release.
+
+. Update the conformance report, then each accessibility statement, with the new gaps and dates.
+
+== Example
+
+A team tests version 2.4 of a permit service.
+The sample holds the home page, the search page, the permit form and the confirmation letter.
+The screen reader pass finds that one error message gets no announcement.
+The team fixes the message, because it blocks the form.
+A low contrast border in the footer goes into the statement, with a date for the fix.
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-05 |First version.
+|===

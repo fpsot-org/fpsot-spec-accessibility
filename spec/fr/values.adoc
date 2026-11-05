@@ -1,0 +1,122 @@
+= Valeurs d’accessibilité
+include::_fpsot-terms.adoc[]
+
+Ces règles fixent les valeurs que le personnel de conception et de rédaction applique à chaque écran, document et diagramme.
+Les spécifications de la {abbr-fpsot-first} sur le style et sur les diagrammes renvoient à cette page.
+Elles ne reprennent ni ne changent jamais une valeur.
+Chaque valeur respecte un critère de succès de la link:https://www.w3.org/TR/WCAG22/[version 2.2] des {abbr-wcag-first}, et chaque règle nomme ce critère.
+
+[cols="2,3,1",options="header"]
+|===
+|Valeur |Minimum |Règle
+|Contraste du texte |4,5:1, ou 3:1 pour le grand texte |ACC-010
+|Contraste des commandes, des états et des graphiques |3:1 |ACC-011
+|Indicateur de focus |2 pixels {abbr-css-first} d’épaisseur autour du composant, avec un changement de 3:1 |ACC-013
+|Taille des cibles |24 sur 24 pixels {abbr-css}, ou 44 sur 44 sur les écrans tactiles |ACC-015
+|Flashs |3 au plus par seconde |ACC-016
+|Contenu en mouvement |une commande de pause dès le début, pour le contenu qui dure plus de 5 secondes, et aucun mouvement quand la réduction des animations est active |ACC-017
+|Taille du texte et zoom |texte à 200 %, et largeur de 320 pixels {abbr-css} |ACC-019
+|===
+
+== Couleur et contraste
+
+[[ACC-010]]
+*ACC-010.* Le texte et les images de texte DOIVENT avoir un contraste d’au moins 4,5:1 avec leur arrière-plan.
+Le grand texte DOIT avoir un rapport d’au moins 3:1.
+Le grand texte mesure au moins 24 pixels {abbr-css}, ou au moins 18,66 pixels {abbr-css} en gras.
+Ces rapports DOIVENT tenir dans chaque thème et mode, et dans chaque état, comme le survol ou la sélection.
+Un faible contraste est l’obstacle le plus courant pour les personnes ayant une basse vision.
+Le critère 1.4.3 fixe ces rapports.
+
+[[ACC-011]]
+*ACC-011.* L’information visuelle nécessaire pour reconnaître une commande et son état DOIT avoir un rapport d’au moins 3:1.
+Le rapport s’applique à chaque couleur adjacente.
+Il couvre la bordure d’un champ, un état comme « coché » et une icône qui a un sens.
+Il couvre aussi les lignes et les zones de chaque graphique et diagramme.
+Les personnes ont besoin de voir où se trouve une commande et dans quel état elle est.
+Le critère 1.4.11 fixe ce rapport.
+
+[[ACC-012]]
+*ACC-012.* La couleur NE DOIT PAS être le seul moyen de montrer une information, un état ou une action.
+Ajoutez du texte, une forme, un motif ou une position.
+Chaque graphique et diagramme DOIT nommer ses séries ou employer des motifs, et non la couleur seule.
+Certaines personnes voient peu de couleurs, et certains écrans et imprimantes perdent la couleur.
+Le critère 1.4.1 fixe cette règle.
+
+== Focus
+
+[[ACC-013]]
+*ACC-013.* Chaque composant qui reçoit le focus du clavier DOIT montrer un indicateur de focus conforme au critère 2.4.13.
+L’indicateur DOIT être au moins aussi grand qu’une ligne de 2 pixels {abbr-css} d’épaisseur autour du composant.
+Les états avec et sans focus de ces pixels DOIVENT différer par un rapport de contraste d’au moins 3:1.
+Un produit NE DOIT PAS retirer le contour de focus du navigateur, sauf si son remplacement respecte cette règle.
+Les personnes qui emploient le clavier ont besoin de voir où elles sont à chaque étape.
+
+[[ACC-014]]
+*ACC-014.* Un ajout du produit, comme un en-tête fixe, NE DOIT PAS couvrir tout le composant qui a le focus.
+Il NE DEVRAIT PAS non plus le couvrir en partie.
+Une marge de défilement ou une mise en page sans superposition fixe respecte les deux règles.
+Un focus couvert laisse une personne qui emploie le clavier perdue dans la page.
+Les critères 2.4.11 et 2.4.12 fixent ces règles.
+
+== Cibles
+
+[[ACC-015]]
+*ACC-015.* Chaque cible de pointeur DOIT mesurer au moins 24 sur 24 pixels {abbr-css}, sauf exception du critère 2.5.8.
+Sur un écran tactile et dans une application mobile, une commande DEVRAIT mesurer au moins 44 sur 44 pixels {abbr-css}.
+Les petites cibles sont difficiles à atteindre pour les personnes qui ont des tremblements ou une dextérité réduite.
+Les doigts ont besoin de cibles plus grandes qu’une souris, et le critère 2.5.5 fixe la plus grande taille.
+
+== Mouvement
+
+[[ACC-016]]
+*ACC-016.* Le contenu NE DOIT PAS produire plus de trois flashs dans une même seconde.
+Cette règle n’a aucune exception pour les flashs petits ou faibles, comme dans le critère 2.3.2.
+Les flashs risquent de causer des crises d’épilepsie.
+La zone sûre d’un flash dépend de la taille de l’écran et de la distance.
+
+[[ACC-017]]
+*ACC-017.* Le contenu qui bouge, clignote ou défile seul pendant plus de cinq secondes DOIT avoir une commande de pause.
+La commande DOIT permettre de mettre en pause, d’arrêter ou de masquer le contenu, comme dans le critère 2.2.2.
+Quand la personne active le réglage de réduction des animations, le produit DOIT arrêter tout mouvement non essentiel.
+Dans une page Web, la caractéristique média {abbr-css} `prefers-reduced-motion` transmet ce réglage.
+Cela respecte le critère 2.3.3.
+Le mouvement distrait certaines personnes et en étourdit d’autres.
+
+== Textes de remplacement
+
+[[ACC-018]]
+*ACC-018.* Chaque image, icône, graphique et diagramme qui a un sens DOIT avoir un texte de remplacement de même fonction.
+Un graphique ou un diagramme DOIT aussi avoir une description longue, comme un tableau de données, à côté de lui.
+Une image purement décorative DOIT avoir un texte de remplacement vide, pour que les lecteurs d’écran l’ignorent.
+Les personnes qui ne voient pas une image obtiennent la même information par le texte.
+Le critère 1.1.1 fixe cette règle.
+Les spécifications de la {abbr-fpsot} sur la documentation et sur les diagrammes fixent où écrire ces textes.
+
+== Taille du texte et mise en page
+
+[[ACC-019]]
+*ACC-019.* Le contenu DOIT rester utilisable avec un texte à 200 % de sa taille, comme dans le critère 1.4.4.
+Il DOIT rester utilisable à une largeur de 320 pixels {abbr-css}, comme dans le critère 1.4.10.
+Il DOIT aussi rester utilisable avec les valeurs d’espacement du texte du critère 1.4.12.
+Un produit DOIT employer du vrai texte plutôt que des images de texte, sauf pour les logos.
+Le critère 1.4.5 fixe cette règle.
+Les personnes ayant une basse vision agrandissent le texte, et le défilement dans deux directions les gêne.
+
+Selon la définition des {abbr-wcag}, une image qui contient un autre contenu visuel important n’est pas une image de texte.
+Les diagrammes et les graphiques sont de telles images.
+La spécification de la {abbr-fpsot} sur les diagrammes fixe comment le texte d’un diagramme reste du vrai texte.
+
+== Références
+
+=== Références normatives
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, recommandation du W3C, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-05 |Première version.
+|===

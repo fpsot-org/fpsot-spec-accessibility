@@ -1,0 +1,44 @@
+= Tester une version
+:page-type: how-to
+include::_fpsot-terms.adoc[]
+
+Ce guide montre comment tester une version d’un produit par rapport à la base d’accessibilité.
+
+. Vérifiez que les vérifications automatisées de l’{abbr-ci-first} réussissent sur la branche de la version.
+
+. Dressez la liste des écrans courants, des processus complets et des documents que le produit génère.
+Ajoutez un ensemble aléatoire d’autres écrans.
+
+. Vérifiez chaque écran de l’échantillon au clavier seul.
+Observez l’indicateur de focus à chaque étape.
+
+. Vérifiez chaque écran avec un lecteur d’écran sur chaque plateforme prise en charge, en français et en anglais.
+
+. Vérifiez chaque écran avec le texte à 200 % et avec la page agrandie à 400 %.
+
+. Vérifiez chaque critère des exigences ACC-001 et ACC-003 sur l’échantillon, et notez réussi, échoué ou sans objet.
+
+. Ouvrez chaque document généré avec un lecteur d’écran, et vérifiez ses balises et son ordre de lecture.
+
+. Rédigez le registre d’essai, avec le nom et la version de chaque outil et de chaque technologie d’assistance.
+
+. Ouvrez un ticket pour chaque échec.
+Corrigez avant la version chaque échec qui bloque une tâche.
+
+. Mettez à jour le rapport de conformité, puis chaque déclaration sur l’accessibilité, avec les nouveaux écarts et leurs dates.
+
+== Exemple
+
+Une équipe teste la version 2.4 d’un service de permis.
+L’échantillon comprend la page d’accueil, la page de recherche, le formulaire de permis et la lettre de confirmation.
+Le parcours au lecteur d’écran révèle qu’un message d’erreur n’est pas annoncé.
+L’équipe corrige le message, car il bloque le formulaire.
+Une bordure à faible contraste dans le pied de page entre dans la déclaration, avec une date de correction.
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-05 |Première version.
+|===

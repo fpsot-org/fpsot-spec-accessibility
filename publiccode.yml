@@ -9,22 +9,30 @@ developmentStatus: concept
 softwareType: "standalone/other"
 description:
   en:
-    shortDescription: Template for FPSOT specification repositories.
+    shortDescription: How FPSOT products serve people with disabilities.
     longDescription: >
-      Starting point for an FPSOT specification repository. It holds the
-      layout, the Community Specification License files, and the CI that
-      checks requirement IDs, links, languages and prose.
+      The FPSOT accessibility specification sets WCAG 2.2 level AA, with four
+      level AAA criteria, as the baseline of every FPSOT web page, document
+      and mobile app. It fixes the values for contrast, focus, target size,
+      motion and text alternatives, and sets how teams test a product, keep
+      a test record, publish an accessibility statement and require
+      accessibility in procurement with EN 301 549.
     features:
-      - Specification repository layout
+      - One accessibility profile for Canada and Québec
+      - Test records and accessibility statements
   fr:
-    shortDescription: Gabarit des dépôts de spécification de FPSOT.
+    shortDescription: Comment les produits de FPSOT servent les personnes handicapées.
     longDescription: >
-      Point de départ d'un dépôt de spécification de FPSOT. Il contient la
-      structure, les fichiers de la Community Specification License, et
-      l'intégration continue qui vérifie les identifiants, les liens, les
-      langues et la rédaction.
+      La spécification de FPSOT sur l'accessibilité fixe le niveau AA des
+      WCAG 2.2, avec quatre critères de niveau AAA, comme base de chaque page
+      Web, document et application mobile de FPSOT. Elle fixe les valeurs du
+      contraste, du focus, de la taille des cibles, du mouvement et des
+      textes de remplacement, ainsi que la façon de tester un produit, de tenir
+      un registre d'essai, de publier une déclaration sur l'accessibilité et
+      d'exiger l'accessibilité dans les acquisitions selon la norme EN 301 549.
     features:
-      - Structure d'un dépôt de spécification
+      - Un seul profil d'accessibilité pour le Canada et le Québec
+      - Registres d'essai et déclarations sur l'accessibilité
 legal:
   license: Community-Spec-1.0
 maintenance:

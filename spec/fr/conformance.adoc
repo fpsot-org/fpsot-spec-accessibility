@@ -1,0 +1,105 @@
+= Déclarations et acquisition
+include::_fpsot-terms.adoc[]
+
+Ces règles fixent comment un déploiement indique son niveau d’accessibilité, et comment un organisme acheteur exige l’accessibilité.
+Une déclaration et un contrat reposent tous deux sur le registre d’essai de l’exigence ACC-045.
+
+== Déclarations sur l’accessibilité
+
+[[ACC-050]]
+*ACC-050.* Chaque déploiement DOIT publier une déclaration sur l’accessibilité en français et en anglais.
+Chaque page Web DOIT avoir un lien vers elle, par exemple dans le pied de page.
+Une application mobile DOIT avoir un lien vers elle dans son écran d’accueil ou dans ses réglages.
+La page où une personne télécharge un document DOIT aussi avoir un lien vers elle.
+Les personnes ont besoin de savoir ce qui marche, ce qui ne marche pas et à qui s’adresser.
+
+[[ACC-051]]
+*ACC-051.* Une déclaration sur l’accessibilité DOIT contenir les éléments suivants, en langage clair.
+
+. Les normes et le niveau visés, dont les exigences ACC-001 et ACC-003 et toute norme exigée par l’administration.
+
+. L’état : conformité totale, partielle ou nulle.
+
+. La date de la déclaration et la date du registre d’essai sur lequel elle s’appuie.
+
+. Chaque écart connu, avec un moyen de le contourner et une date prévue de correction.
+
+. Le nom et la version de chaque technologie d’assistance employée dans les essais.
+
+. Le sens de chaque icône qui n’a pas d’étiquette de texte visible.
+
+. Au moins deux moyens de joindre l’équipe, comme une adresse courriel et un numéro de téléphone.
+
+. Une offre d’aide ou d’un autre format.
+
+Ces éléments respectent en une seule page les règles du Canada et du Québec sur les déclarations.
+
+[[ACC-052]]
+*ACC-052.* Un déploiement NE DOIT PAS déclarer une conformité totale s’il connaît un échec.
+Une déclaration de conformité DOIT contenir les parties qu’exige la section 5.3.1 des link:https://www.w3.org/TR/WCAG22/[WCAG 2.2].
+Ces parties sont la date, la version, le niveau, les pages visées et les technologies sur lesquelles le contenu s’appuie.
+Une fausse déclaration trompe les personnes qui dépendent du produit, et l’organisme acheteur qui s’y fie.
+
+[[ACC-053]]
+*ACC-053.* Un déploiement DOIT mettre à jour sa déclaration au moins tous les 12 mois.
+Il DOIT aussi la mettre à jour après chaque version qui change un écart connu.
+Une vieille déclaration cesse vite de correspondre au produit.
+
+[[ACC-054]]
+*ACC-054.* Chaque version d’un produit de la {abbr-fpsot-first} DOIT livrer un rapport de conformité.
+Le rapport DOIT donner le résultat de chaque critère des exigences ACC-001 et ACC-003.
+Il DOIT aussi donner le résultat de chaque article applicable de la norme link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1].
+Chaque déploiement bâtit alors sa déclaration à partir du rapport et de ses propres essais.
+
+== Acquisition
+
+[[ACC-055]]
+*ACC-055.* Un organisme acheteur qui adopte cette spécification DOIT exiger link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1] dans chaque appel d’offres.
+Il DOIT aussi exiger les exigences ACC-001 à ACC-003.
+Quand une loi nomme une autre édition, comme la link:https://accessibilite.canada.ca/normes-et-guides-techniques/base-de-donnees-des-normes-et-des-guides-techniques/resume-de-la-norme-can-asc-en-301-5492024-exigences-daccessibilite-pour-les-produits-et-services-de-tic-en-301-5492021-idt[CAN/ASC - EN 301 549:2024], l’organisme DOIT l’ajouter.
+La norme EN 301 549 couvre le matériel, les logiciels, les documents et les services de soutien.
+Beaucoup de gouvernements achètent selon elle.
+La version 4.1.1 l’aligne sur les {abbr-wcag-first} 2.2.
+
+[[ACC-056]]
+*ACC-056.* Un appel d’offres DOIT demander à chaque soumissionnaire un rapport de conformité avec une analyse des écarts.
+Le rapport couvre chaque norme exigée.
+Le rapport DOIT reposer sur un registre d’essai conforme à l’exigence ACC-045.
+Un organisme acheteur NE DOIT PAS accepter une affirmation de conformité sans registre d’essai.
+Les preuves permettent de comparer les soumissions sur des faits.
+
+[[ACC-057]]
+*ACC-057.* Avant d’attribuer le contrat, un organisme acheteur DEVRAIT tester lui-même un échantillon de la soumission en tête.
+L’essai DEVRAIT employer les vérifications de l’exigence ACC-043.
+L’organisme DEVRAIT aussi donner un poids à l’accessibilité dans la notation des soumissions.
+Un court essai avant l’attribution coûte moins cher qu’une correction après.
+
+[[ACC-058]]
+*ACC-058.* Un contrat DOIT obliger le fournisseur à corriger les échecs d’accessibilité dans un délai convenu.
+Il DOIT exiger un nouveau rapport de conformité à chaque version majeure.
+La conformité risque de reculer à chaque mise à jour, sauf si le contrat y oblige le fournisseur.
+
+[[ACC-059]]
+*ACC-059.* Un projet DOIT vérifier chaque composant externe par rapport à la base avant de l’adopter.
+Les composants externes comprennent les bibliothèques, les widgets et les thèmes.
+Le projet DOIT consigner chaque écart qu’il trouve, et le corriger ou le signaler au projet d’origine.
+Un produit n’est pas plus accessible que son composant le plus faible.
+
+== Références
+
+=== Références normatives
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, recommandation du W3C, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Copie archivée]
+* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC et ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Copie archivée]
+
+=== Références informatives
+
+* link:https://accessibilite.canada.ca/normes-et-guides-techniques/base-de-donnees-des-normes-et-des-guides-techniques/resume-de-la-norme-can-asc-en-301-5492024-exigences-daccessibilite-pour-les-produits-et-services-de-tic-en-301-5492021-idt[Résumé de la norme CAN/ASC - EN 301 549:2024, Exigences d’accessibilité pour les produits et services de TIC (EN 301 549:2021, IDT)], Normes d’accessibilité Canada, 2024, 2024-05. link:https://web.archive.org/web/20260802012026/https://accessibilite.canada.ca/normes-et-guides-techniques/base-de-donnees-des-normes-et-des-guides-techniques/resume-de-la-norme-can-asc-en-301-5492024-exigences-daccessibilite-pour-les-produits-et-services-de-tic-en-301-5492021-idt[Copie archivée]
+
+== Historique du document
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Changement
+|0.1.0 |2026-11-05 |Première version.
+|===

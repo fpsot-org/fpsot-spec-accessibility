@@ -1,0 +1,97 @@
+= Testing
+include::_fpsot-terms.adoc[]
+
+These rules set how a team checks a product against the baseline, and what it records.
+Tools find only part of the barriers, so the rules join automated checks, manual checks and checks with assistive technologies.
+
+== Automated checks
+
+[[ACC-040]]
+*ACC-040.* A project MUST run automated accessibility checks in its {abbr-ci-first} on every change.
+This covers each change to a screen, a template or a document generator.
+The checks SHOULD use a rule engine that implements the link:https://www.w3.org/WAI/standards-guidelines/act/rules/[ACT Rules] of the {abbr-w3c-first}.
+A new failure MUST stop the merge.
+Automated checks catch common errors early, when they cost least to fix.
+
+[[ACC-041]]
+*ACC-041.* A team MUST NOT claim conformance from automated results alone.
+Tools test only a part of the success criteria.
+They cannot judge whether a text alternative or a label makes sense.
+
+== Manual and assistive technology checks
+
+[[ACC-042]]
+*ACC-042.* A team MUST check every criterion of ACC-001 and ACC-003 by hand before each release.
+This applies to each release that changes what people see or use.
+The team MUST check a sample chosen with the method of link:https://www.w3.org/TR/WCAG-EM/[WCAG-EM 2.0].
+The sample covers the common screens, every step of each complete process, and a random set.
+A sample chosen by method gives a result that another team can repeat.
+
+[[ACC-043]]
+*ACC-043.* The manual check MUST include these checks, in English and in French.
+
+. A pass with the keyboard alone.
+
+. A pass with a screen reader and a browser on each desktop platform that the product supports.
+
+. A pass with the screen reader of each mobile platform that the product supports.
+
+. A pass with text at 200% and with the page zoomed to 400%.
+
+The team SHOULD also test voice control and screen magnification.
+Assistive technologies behave in ways that code review and tools cannot predict.
+
+[[ACC-044]]
+*ACC-044.* A team SHOULD include people with disabilities in usability tests before each major release.
+People who use assistive technologies every day find barriers that experts miss.
+
+== Test record
+
+[[ACC-045]]
+*ACC-045.* Each test MUST produce a test record that holds these items.
+
+. The product, its version and the date of the test.
+
+. The standards and level checked, such as link:https://www.w3.org/TR/WCAG22/[WCAG 2.2] level AA with ACC-003.
+
+. The sample, with the address or the path to each screen and document.
+
+. The result of each criterion: pass, fail or not applicable, with a note for each failure.
+
+. The name and version of each tool, browser and assistive technology used.
+
+. The role of each person who tested, without personal details beyond what the team agrees to publish.
+
+A record lets the team, the buyer and the public see what the team tested and how.
+
+[[ACC-046]]
+*ACC-046.* A project MUST keep each test record for at least four years, in a text format under version control.
+The accessibility statement and the conformance report MUST cite the test record they rely on.
+The link:https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html[Canadian federal rules] require four years for conformity assessments.
+With a text format, a tool can compare two records.
+
+[[ACC-047]]
+*ACC-047.* Each failure MUST become an issue that names the criterion and the screen.
+The team MUST fix a failure that blocks a task with no other way to complete it before the release.
+Other failures MUST appear in the accessibility statement with a planned date.
+A tracked issue stays in view from one release to the next.
+
+== References
+
+=== Normative
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, W3C Recommendation, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Archived copy]
+* link:https://www.w3.org/TR/WCAG-EM/[WCAG Evaluation Methodology (WCAG-EM) 2.0], W3C, W3C Group Note, 2026-07-23. link:https://web.archive.org/web/20261024202245/https://www.w3.org/TR/WCAG-EM/[Archived copy]
+
+=== Informative
+
+* link:https://www.w3.org/WAI/standards-guidelines/act/rules/[All ACT Rules], W3C. link:https://web.archive.org/web/20261015044940/https://www.w3.org/WAI/standards-guidelines/act/rules/[Archived copy]
+* link:https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html[Regulations Amending the Accessible Canada Regulations, SOR/2025-255], Canada Gazette, Part II, registered 2025-12-05, 2025-12-17. link:https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-05 |First version.
+|===

@@ -1,0 +1,71 @@
+= Documents and media
+include::_fpsot-terms.adoc[]
+
+These rules cover the documents that a product publishes or generates, and its audio and video.
+Documents include notices, letters, reports and forms, and the published specifications.
+Each rule names the success criteria of link:https://www.w3.org/TR/WCAG22/[version 2.2] of the {abbr-wcag-first}.
+
+== Documents
+
+[[ACC-030]]
+*ACC-030.* A digital document MUST meet the baseline as link:https://www.w3.org/TR/wcag2ict-22/[WCAG2ICT] applies it to documents.
+It MUST also meet clause 10 on documents of link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1].
+A document is often the only record that a person gets, so it needs the care of a web page.
+
+[[ACC-031]]
+*ACC-031.* A product that generates a {abbr-pdf-first} file MUST generate it as tagged {abbr-pdf} from structured source.
+The {abbr-fpsot-first} documentation specification sets the {abbr-pdf} formats in its rule DOC-042.
+A product MUST NOT add tags to a finished file as its only way to meet this rule.
+A product MUST NOT publish a scanned image as the only form of a document.
+Tags give screen readers the headings, the reading order and the tables.
+Tags added after the fact often get the reading order wrong.
+
+[[ACC-032]]
+*ACC-032.* Each document MUST have a title in its metadata, a declared language and headings in order.
+Its reading order MUST match its meaning.
+Each table MUST mark its header cells.
+Each image MUST have a text alternative under ACC-018.
+A document longer than 20 pages SHOULD have bookmarks that follow its headings.
+Assistive technologies use this structure to read and move through a document.
+
+[[ACC-033]]
+*ACC-033.* A service SHOULD publish its content as a web page, and offer a document only as an extra format.
+A service MUST NOT require a fillable {abbr-pdf} or another document form when a web form can do the task.
+Web pages adapt to zoom, screen size and assistive technologies better than fixed pages.
+Fillable document forms often fail with screen readers and on phones.
+
+== Audio and video
+
+[[ACC-034]]
+*ACC-034.* Prerecorded video with sound MUST have captions.
+It MUST also have audio description when the picture carries information that the sound does not.
+Prerecorded audio alone MUST have a transcript, and live video with sound MUST have captions.
+Captions MUST follow the language of the sound, and SHOULD exist in each official language of the video.
+Deaf, hard of hearing and blind people need another way to get the same information.
+Criteria 1.2.1, 1.2.2, 1.2.4 and 1.2.5 set these rules.
+
+[[ACC-035]]
+*ACC-035.* A media player MUST work with a keyboard and with assistive technologies.
+It MUST offer controls for captions and audio description.
+Media MUST NOT play sound by itself for over three seconds without a control to stop it.
+Sound that starts by itself covers the voice of a screen reader.
+Criterion 1.4.2 sets the rule on sound.
+
+== References
+
+=== Normative
+
+* link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, W3C Recommendation, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Archived copy]
+* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC and ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Archived copy]
+
+=== Informative
+
+* link:https://www.w3.org/TR/wcag2ict-22/[Guidance on Applying WCAG 2 to Non-Web Information and Communications Technologies (WCAG2ICT)], W3C, W3C Group Note, 2025-12-11. link:https://web.archive.org/web/20261022204217/https://www.w3.org/TR/wcag2ict-22/[Archived copy]
+
+== Document history
+
+[cols="1,1,4",options="header"]
+|===
+|Version |Date |Change
+|0.1.0 |2026-11-05 |First version.
+|===

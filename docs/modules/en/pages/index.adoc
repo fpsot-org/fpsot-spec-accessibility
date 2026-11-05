@@ -1,15 +1,49 @@
-= Guide
+= Accessibility guide
 :page-type: explanation
 include::_fpsot-terms.adoc[]
 
-This page explains the specification for the people who adopt it.
-Each guide page has one type.
-It is a tutorial, a how-to guide, a reference or an explanation.
+This guide explains the {abbr-fpsot-first} accessibility specification for the teams that adopt it.
+
+== Why one profile
+
+Canada, Québec and Europe each name a different accessibility standard.
+The federal rules point to an edition based on an older version of the guidelines.
+Québec adds a few criteria of the highest level.
+A product built for one of them can fail the others.
+
+The specification sets one profile that covers them all.
+It takes level AA of the current version, and adds the four extra criteria that Québec requires.
+A product that meets the profile passes one test, and that test serves every buyer.
+
+== Who owns which value
+
+The values for contrast, the focus, the size of targets and motion live in this specification only.
+So do the rules on text alternatives.
+The style specification builds themes and design tokens on these values.
+The diagrams specification draws charts and diagrams that meet them.
+Neither one sets a value of its own, so a change happens in one place.
+
+== What a team produces
+
+A team produces three things for each release.
+
+. A test record, with the sample, the result of each criterion and the tools used.
+
+. A conformance report for the product, built from the test record.
+
+. An accessibility statement for each deployment, in English and in French.
+
+Buyers ask for the report, and the public reads the statement.
+
+== What to read next
+
+* xref:test-a-release.adoc[Test a release] gives the steps for each release.
+* The normative text is in `spec/en/`.
 
 == Document history
 
 [cols="1,1,4",options="header"]
 |===
 |Version |Date |Change
-|0.1.0 |2026-11-03 |First version.
+|0.1.0 |2026-11-05 |First version.
 |===

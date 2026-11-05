@@ -1,0 +1,63 @@
+code: CA
+name: {en: Canada, fr: Canada}
+rows:
+  - id: ACC-001
+    text: {en: "From 2027-12-05, federal public sector web pages that are new or updated meet clauses 4 to 7 and 9 of the ICT Standard. The ICT Standard is CAN/ASC - EN 301 549 as amended from time to time. The regulatory impact analysis statement, not the regulation, says that its 2024 edition adopts EN 301 549 V3.2.1, which uses WCAG 2.1 level AA.", fr: "À compter du 2027-12-05, les pages Web nouvelles ou mises à jour du secteur public fédéral respectent les articles 4 à 7 et 9 de la norme TIC. La norme TIC est la CAN/ASC - EN 301 549 avec ses modifications successives. Le résumé de l’étude d’impact de la réglementation, et non le règlement, indique que son édition de 2024 adopte la norme EN 301 549 V3.2.1, qui emploie le niveau AA des WCAG 2.1."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, sections 19.1, 19.4 and 19.5, with its Regulatory Impact Analysis Statement", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-002
+    text: {en: "Federal public sector web pages, for the public and for employees, are covered from 2027-12-05. Mobile apps and downloadable non-web documents are covered from 2028-12-05, as are larger federally regulated private entities. Only content created or updated after those dates is covered.", fr: "Les pages Web du secteur public fédéral, pour le public et pour le personnel, sont visées à compter du 2027-12-05. Les applications mobiles et les documents non Web téléchargeables sont visés à compter du 2028-12-05, tout comme les grandes entités privées sous réglementation fédérale. Seul le contenu créé ou mis à jour après ces dates est visé."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, sections 18, 19.4, 19.5, 19.51 and 19.52", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-005
+    text: {en: "The direction rescinds the Standard on Web Accessibility. Until the regulations apply, departments keep public websites and mobile apps at the minimum of WCAG 2.0, set in 2011. The direction names no level.", fr: "L’orientation abroge la Norme sur l’accessibilité des sites Web. D’ici l’application du règlement, les ministères maintiennent leurs sites publics et leurs applications mobiles au minimum des WCAG 2.0, fixé en 2011. L’orientation ne nomme aucun niveau."}
+    status: looser
+    source: {title: "Direction on Information Communication Technologies Accessibility; towards regulatory implementation", date: "2026-03-12", url: "https://www.canada.ca/en/government/system/digital-government/policies-standards/policy-service-digital-announcements/direction-information-communication-technologies-accessibility-towards-regulatory-implementation.html", archive: "https://web.archive.org/web/20261105030637/https://www.canada.ca/en/government/system/digital-government/policies-standards/policy-service-digital-announcements/direction-information-communication-technologies-accessibility-towards-regulatory-implementation.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-006
+    text: {en: "Heritage content and user-generated content are exempt. The degree of control over a page counts when judging what is feasible. From 2028-12-05, that control includes control under an agreement with a third party.", fr: "Le contenu patrimonial et les contenus générés par les utilisateurs sont exemptés. Le degré de contrôle sur une page compte dans l’évaluation de ce qui est réalisable. À compter du 2028-12-05, ce contrôle comprend celui qu’accorde une entente avec un tiers."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, sections 19.3, 19.4 and 19.5", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-027
+    text: {en: "From 2028-12-05, mobile apps launched on or after that day meet clauses 4 to 7 and 11 of the ICT Standard, which uses WCAG 2.1.", fr: "À compter du 2028-12-05, les applications mobiles lancées à partir de ce jour respectent les articles 4 à 7 et 11 de la norme TIC, qui emploie les WCAG 2.1."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, section 19.51", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-030
+    text: {en: "From 2028-12-05, non-web documents offered for download meet clauses 4 to 7 and 10 of the ICT Standard. The rule names no PDF format.", fr: "À compter du 2028-12-05, les documents non Web offerts en téléchargement respectent les articles 4 à 7 et 10 de la norme TIC. La règle ne nomme aucun format PDF."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, section 19.52", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-046
+    text: {en: "An entity keeps each conformity assessment report until the fourth anniversary of its completion.", fr: "Une entité conserve chaque rapport d’évaluation de conformité jusqu’au quatrième anniversaire de son achèvement."}
+    status: same
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, section 19.7", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-050
+    text: {en: "An entity publishes an accessibility statement by the day the duty first applies. The statement sits in a prominent place on the web page, the app home screen, or the page from which a document downloads.", fr: "Une entité publie une déclaration sur l’accessibilité au plus tard le jour où l’obligation s’applique pour la première fois. La déclaration figure bien en vue sur la page Web, l’écran d’accueil de l’application ou la page de téléchargement du document."}
+    status: same
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, section 19.6", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-051
+    text: {en: "The statement is in plain language and dated. It gives at least two contact methods, an overview of nonconformities, any alternative measures, and plans and timelines to close gaps. It need not name a level or the assistive technologies used.", fr: "La déclaration est en langage clair et datée. Elle donne au moins deux moyens de contact, un aperçu des non-conformités, les autres mesures prévues, et les plans et échéanciers pour combler les écarts. Elle n’a pas à nommer un niveau ni les technologies d’assistance employées."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, section 19.6", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-053
+    text: {en: "After the first one, an entity publishes a new statement at least every 12 months. The regulation sets no update after a release that changes a known gap.", fr: "Après la première, une entité publie une nouvelle déclaration au moins tous les 12 mois. Le règlement n’exige aucune mise à jour après une version qui change un écart connu."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, section 19.6", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-055
+    text: {en: "The ICT Standard is CAN/ASC - EN 301 549. The regulatory impact analysis statement, not the regulation, says that its 2024 edition adopts EN 301 549 V3.2.1 and WCAG 2.1. An entity may meet a newer EN 301 549 version instead. Paragraph 19.9(b) also accepts the previous edition of the ICT Standard.", fr: "La norme TIC est la CAN/ASC - EN 301 549. Le résumé de l’étude d’impact de la réglementation, et non le règlement, indique que son édition de 2024 adopte la norme EN 301 549 V3.2.1 et les WCAG 2.1. Une entité peut plutôt respecter une version plus récente de la norme EN 301 549. L’alinéa 19.9b) accepte aussi l’édition précédente de la norme TIC."}
+    status: looser
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, sections 19.1 and 19.9, with its Regulatory Impact Analysis Statement", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
+  - id: ACC-056
+    text: {en: "From 2028-12-05, an entity that starts a procurement for web pages or mobile apps obtains a conformity assessment, with a gap analysis, against the ICT Standard.", fr: "À compter du 2028-12-05, une entité qui lance une acquisition de pages Web ou d’applications mobiles obtient une évaluation de conformité à la norme TIC, avec une analyse des écarts."}
+    status: same
+    source: {title: "Regulations Amending the Accessible Canada Regulations, SOR/2025-255, section 19.61", version: "Registered 2025-12-05", date: "2025-12-17", url: "https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html", archive: "https://web.archive.org/web/20260618045928/https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-eng.html"}
+    last_checked: "2026-11-05"
