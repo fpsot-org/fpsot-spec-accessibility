@@ -18,8 +18,8 @@ Un produit qui respecte le profil passe un seul essai, et cet essai sert à chaq
 == Qui fixe chaque valeur
 
 Les valeurs du contraste, du focus, de la taille des cibles et du mouvement se trouvent seulement dans cette spécification.
-C’est aussi le cas des règles sur les équivalents textuels.
-La spécification sur le style bâtit les thèmes et les jetons de conception sur ces valeurs.
+C’est aussi le cas des règles sur les textes de remplacement.
+La spécification sur le style bâtit les thèmes et les jetons de design sur ces valeurs.
 La spécification sur les diagrammes dessine des graphiques et des diagrammes qui les respectent.
 Aucune des deux ne fixe sa propre valeur, donc un changement se fait à un seul endroit.
 

@@ -10,7 +10,7 @@ La spécification fixe aussi comment tester un produit, comment déclarer sa con
 Les règles comportent six parties.
 
 * La partie xref:baseline.adoc[Base] fixe la cible et sa portée.
-* La partie xref:values.adoc[Valeurs d’accessibilité] fixe les valeurs du contraste, du focus, des cibles, du mouvement et des équivalents textuels.
+* La partie xref:values.adoc[Valeurs d’accessibilité] fixe les valeurs du contraste, du focus, des cibles, du mouvement et des textes de remplacement.
 * La partie xref:interaction.adoc[Pages Web et applications] couvre le clavier, la structure, les formulaires et les applications mobiles.
 * La partie xref:documents-media.adoc[Documents et médias] couvre les documents balisés, l’audio et la vidéo.
 * La partie xref:testing.adoc[Essais] couvre les vérifications automatisées, manuelles et avec des technologies d’assistance, ainsi que le registre d’essai.

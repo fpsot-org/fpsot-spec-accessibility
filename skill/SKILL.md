@@ -20,7 +20,7 @@ The spec text in `spec/` wins on any difference. Each line cites its requirement
 ## Values (style and diagrams point here)
 
 - Text contrast must be 4.5:1, or 3:1 for text of 24 CSS px, or 18.66 CSS px bold. It must hold in every theme, mode and state (ACC-010).
-- Visible parts of controls, states, icons and chart lines must have 3:1 against adjacent colors (ACC-011).
+- The visual information needed to identify a control and its state, meaningful icons and chart lines must have 3:1 against adjacent colors (ACC-011).
 - Color must not be the only cue. Charts and diagrams must label series or use patterns (ACC-012).
 - Focus indicators must meet 2.4.13: a 2 CSS px thick line around the component and a 3:1 change. The browser outline must not be removed without such a replacement (ACC-013).
 - Added content must not cover the focused component completely, and should not cover it in part (ACC-014).
@@ -28,7 +28,7 @@ The spec text in `spec/` wins on any difference. Each line cites its requirement
 - Content must not flash more than three times a second, with no threshold (ACC-016).
 - Motion over five seconds must have a pause control. With reduced motion on, non-essential motion must stop (ACC-017).
 - Meaningful images, icons, charts and diagrams must have a text alternative. Charts and diagrams must also have a longer description, such as a data table. Decorative images must have an empty one (ACC-018).
-- Content must work at 200% text, 320 CSS px width and WCAG text spacing. Images of text must not be used, except logos (ACC-019).
+- Content must work at 200% text, 320 CSS px width and WCAG text spacing. Images of text must not be used, except logos; a diagram, chart or other picture with significant other visual content is not an image of text, and the diagrams spec sets how its text stays real (ACC-019).
 
 ## Web pages and apps
 
@@ -37,7 +37,7 @@ The spec text in `spec/` wins on any difference. Each line cites its requirement
 - Pages must have a title, landmarks, headings in order and a skip link (ACC-022).
 - Fields must have visible, tied labels and state the format and whether required. Errors must name the field and problem. Forms should show an error summary (ACC-023).
 - Sign-in must not rely on a memory test or puzzle alone, and must allow paste and password managers. It should offer a method without memory. Processes must not ask twice for the same data (ACC-024).
-- Status messages must reach assistive technologies without moving focus. Time limits must be adjustable, with a warning and 20 seconds to extend (ACC-025).
+- Status messages must reach assistive technologies without moving focus. Time limits must be adjustable, with a warning and at least 20 seconds to extend (ACC-025).
 - Help must stay in the same place, and repeated navigation must keep its order (ACC-026).
 - Mobile apps must meet the baseline as WCAG2ICT applies it, clause 11 of EN 301 549 V4.1.1, the platform accessibility services, the system text size and both orientations (ACC-027).
 - Drag and complex gestures must have a single-tap way. Motion input must have a control and must be possible to turn off (ACC-028).

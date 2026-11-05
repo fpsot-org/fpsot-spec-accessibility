@@ -56,7 +56,7 @@ Chaque déploiement bâtit alors sa déclaration à partir du rapport et de ses 
 [[ACC-055]]
 *ACC-055.* Un organisme acheteur qui adopte cette spécification DOIT exiger link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549 V4.1.1] dans chaque appel d’offres.
 Il DOIT aussi exiger les exigences ACC-001 à ACC-003.
-Quand une loi nomme une autre édition, comme la link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[CAN/ASC - EN 301 549:2024], l’organisme DOIT l’ajouter.
+Quand une loi nomme une autre édition, comme la link:https://accessibilite.canada.ca/normes-et-guides-techniques/base-de-donnees-des-normes-et-des-guides-techniques/resume-de-la-norme-can-asc-en-301-5492024-exigences-daccessibilite-pour-les-produits-et-services-de-tic-en-301-5492021-idt[CAN/ASC - EN 301 549:2024], l’organisme DOIT l’ajouter.
 La norme EN 301 549 couvre le matériel, les logiciels, les documents et les services de soutien.
 Beaucoup de gouvernements achètent selon elle.
 La version 4.1.1 l’aligne sur les {abbr-wcag-first} 2.2.
@@ -94,7 +94,7 @@ Un produit n’est pas plus accessible que son composant le plus faible.
 
 === Références informatives
 
-* link:https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Summary of CAN/ASC - EN 301 549:2024, Accessibility requirements for ICT products and services (EN 301 549:2021, IDT)], Normes d’accessibilité Canada, 2024, 2024-05. link:https://web.archive.org/web/20260420034312/https://accessible.canada.ca/creating-accessibility-standards/summary-can-asc-en-301-5492024-accessibility-requirements-ict-products-and-services-en-301-5492021-idt[Copie archivée]
+* link:https://accessibilite.canada.ca/normes-et-guides-techniques/base-de-donnees-des-normes-et-des-guides-techniques/resume-de-la-norme-can-asc-en-301-5492024-exigences-daccessibilite-pour-les-produits-et-services-de-tic-en-301-5492021-idt[Résumé de la norme CAN/ASC - EN 301 549:2024, Exigences d’accessibilité pour les produits et services de TIC (EN 301 549:2021, IDT)], Normes d’accessibilité Canada, 2024, 2024-05. link:https://web.archive.org/web/20260802012026/https://accessibilite.canada.ca/normes-et-guides-techniques/base-de-donnees-des-normes-et-des-guides-techniques/resume-de-la-norme-can-asc-en-301-5492024-exigences-daccessibilite-pour-les-produits-et-services-de-tic-en-301-5492021-idt[Copie archivée]
 
 == Historique du document
 

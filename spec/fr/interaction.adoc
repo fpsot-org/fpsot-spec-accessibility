@@ -49,7 +49,7 @@ Les critères 3.3.7 et 3.3.8 fixent ces règles.
 [[ACC-025]]
 *ACC-025.* Un message d’état, comme « Enregistré » ou « 3 résultats », DOIT atteindre les technologies d’assistance sans déplacer le focus.
 Une personne DOIT pouvoir désactiver, régler ou prolonger une limite de temps, sauf si la limite est essentielle.
-Avant la fin d’une session, un produit DOIT avertir la personne et lui laisser 20 secondes pour la prolonger.
+Avant la fin d’une session, un produit DOIT avertir la personne et laisser au moins 20 secondes pour la prolonger.
 Les personnes qui lisent ou tapent lentement ont besoin de plus de temps.
 Les critères 2.2.1 et 4.1.3 fixent ces règles.
 

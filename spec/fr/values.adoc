@@ -14,7 +14,7 @@ Chaque valeur respecte un critère de succès de la link:https://www.w3.org/TR/W
 |Indicateur de focus |2 pixels {abbr-css-first} d’épaisseur autour du composant, avec un changement de 3:1 |ACC-013
 |Taille des cibles |24 sur 24 pixels {abbr-css}, ou 44 sur 44 sur les écrans tactiles |ACC-015
 |Flashs |3 au plus par seconde |ACC-016
-|Contenu en mouvement |une commande de pause après 5 secondes, et aucun mouvement quand la réduction des animations est active |ACC-017
+|Contenu en mouvement |une commande de pause dès le début, pour le contenu qui dure plus de 5 secondes, et aucun mouvement quand la réduction des animations est active |ACC-017
 |Taille du texte et zoom |texte à 200 %, et largeur de 320 pixels {abbr-css} |ACC-019
 |===
 
@@ -29,7 +29,7 @@ Un faible contraste est l’obstacle le plus courant pour les personnes ayant un
 Le critère 1.4.3 fixe ces rapports.
 
 [[ACC-011]]
-*ACC-011.* Chaque partie visible d’une commande DOIT avoir un rapport de contraste d’au moins 3:1.
+*ACC-011.* L’information visuelle nécessaire pour reconnaître une commande et son état DOIT avoir un rapport d’au moins 3:1.
 Le rapport s’applique à chaque couleur adjacente.
 Il couvre la bordure d’un champ, un état comme « coché » et une icône qui a un sens.
 Il couvre aussi les lignes et les zones de chaque graphique et diagramme.
@@ -83,12 +83,12 @@ Dans une page Web, la caractéristique média {abbr-css} `prefers-reduced-motion
 Cela respecte le critère 2.3.3.
 Le mouvement distrait certaines personnes et en étourdit d’autres.
 
-== Équivalents textuels
+== Textes de remplacement
 
 [[ACC-018]]
-*ACC-018.* Chaque image, icône, graphique et diagramme qui a un sens DOIT avoir un équivalent textuel de même fonction.
+*ACC-018.* Chaque image, icône, graphique et diagramme qui a un sens DOIT avoir un texte de remplacement de même fonction.
 Un graphique ou un diagramme DOIT aussi avoir une description longue, comme un tableau de données, à côté de lui.
-Une image purement décorative DOIT avoir un équivalent textuel vide, pour que les lecteurs d’écran l’ignorent.
+Une image purement décorative DOIT avoir un texte de remplacement vide, pour que les lecteurs d’écran l’ignorent.
 Les personnes qui ne voient pas une image obtiennent la même information par le texte.
 Le critère 1.1.1 fixe cette règle.
 Les spécifications de la {abbr-fpsot} sur la documentation et sur les diagrammes fixent où écrire ces textes.
@@ -102,6 +102,10 @@ Il DOIT aussi rester utilisable avec les valeurs d’espacement du texte du crit
 Un produit DOIT employer du vrai texte plutôt que des images de texte, sauf pour les logos.
 Le critère 1.4.5 fixe cette règle.
 Les personnes ayant une basse vision agrandissent le texte, et le défilement dans deux directions les gêne.
+
+Selon la définition des {abbr-wcag}, une image qui contient un autre contenu visuel important n’est pas une image de texte.
+Les diagrammes et les graphiques sont de telles images.
+La spécification de la {abbr-fpsot} sur les diagrammes fixe comment le texte d’un diagramme reste du vrai texte.
 
 == Références
 

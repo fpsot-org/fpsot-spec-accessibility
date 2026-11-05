@@ -17,7 +17,7 @@ Les vérifications automatisées détectent tôt les erreurs courantes, quand le
 [[ACC-041]]
 *ACC-041.* Une équipe NE DOIT PAS déclarer la conformité à partir des seuls résultats automatisés.
 Les outils ne testent qu’une partie des critères de succès.
-Ils ne jugent pas si un équivalent textuel ou une étiquette a du sens.
+Ils ne jugent pas si un texte de remplacement ou une étiquette a du sens.
 
 == Vérifications manuelles et avec des technologies d’assistance
 

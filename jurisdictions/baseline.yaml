@@ -3,7 +3,7 @@ topics:
   baseline: {en: Accessibility baseline, fr: Base d’accessibilité}
   scope: {en: Scope and exceptions, fr: Portée et exceptions}
   values: {en: "Contrast, focus, targets and motion", fr: "Contraste, focus, cibles et mouvement"}
-  text-alternatives: {en: Text alternatives, fr: Équivalents textuels}
+  text-alternatives: {en: Text alternatives, fr: Textes de remplacement}
   documents: {en: Documents, fr: Documents}
   mobile-apps: {en: Mobile apps, fr: Applications mobiles}
   testing: {en: Testing and test records, fr: Essais et registres d’essais}
@@ -78,10 +78,10 @@ rows:
     fpsot: {en: "A pause control, and no motion that is not essential when the reduced motion setting is on.", fr: "Une commande de pause, et aucun mouvement non essentiel quand le réglage de réduction des animations est actif."}
   - id: ACC-018
     topic: text-alternatives
-    requirement: {en: "Text alternatives for images, charts and diagrams.", fr: "Équivalents textuels des images, des graphiques et des diagrammes."}
-    international: {en: "Criterion 1.1.1, level A: non-text content has a text alternative with the same purpose. Decorative content is hidden from assistive technologies.", fr: "Critère 1.1.1, niveau A : le contenu non textuel a un équivalent textuel de même fonction. Le contenu décoratif est masqué aux technologies d’assistance."}
+    requirement: {en: "Text alternatives for images, charts and diagrams.", fr: "Textes de remplacement des images, des graphiques et des diagrammes."}
+    international: {en: "Criterion 1.1.1, level A: non-text content has a text alternative with the same purpose. Decorative content is hidden from assistive technologies.", fr: "Critère 1.1.1, niveau A : le contenu non textuel a un texte de remplacement de même fonction. Le contenu décoratif est masqué aux technologies d’assistance."}
     international_source: {title: "Web Content Accessibility Guidelines (WCAG) 2.2", version: "W3C Recommendation", date: "2024-12-12", url: "https://www.w3.org/TR/WCAG22/", archive: "https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/"}
-    fpsot: {en: "A text alternative for each image with meaning, and a longer description, such as a data table, for each chart and diagram.", fr: "Un équivalent textuel pour chaque image qui a un sens, et une description longue, comme un tableau de données, pour chaque graphique et diagramme."}
+    fpsot: {en: "A text alternative for each image with meaning, and a longer description, such as a data table, for each chart and diagram.", fr: "Un texte de remplacement pour chaque image qui a un sens, et une description longue, comme un tableau de données, pour chaque graphique et diagramme."}
   - id: ACC-027
     topic: mobile-apps
     requirement: {en: "Mobile apps meet the baseline.", fr: "Les applications mobiles respectent la base."}

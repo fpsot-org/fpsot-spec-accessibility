@@ -14,7 +14,7 @@ Each value meets a success criterion of link:https://www.w3.org/TR/WCAG22/[versi
 |Focus indicator |2 {abbr-css-first} pixels thick around the component, with a 3:1 change |ACC-013
 |Target size |24 by 24 {abbr-css} pixels, or 44 by 44 on touch screens |ACC-015
 |Flashes |3 or fewer in any second |ACC-016
-|Moving content |a pause control after 5 seconds, and no motion when reduced motion is on |ACC-017
+|Moving content |a pause control from the start, for content that lasts over 5 seconds, and no motion when reduced motion is on |ACC-017
 |Text size and zoom |200% text, and a width of 320 {abbr-css} pixels |ACC-019
 |===
 
@@ -29,7 +29,7 @@ Low contrast is the most common barrier for people with low vision.
 Criterion 1.4.3 sets these ratios.
 
 [[ACC-011]]
-*ACC-011.* Each visible part of a control MUST have a contrast ratio of at least 3:1.
+*ACC-011.* Contrast MUST reach 3:1 or more for the visual information needed to identify a control and its state.
 The ratio applies against each adjacent color.
 It covers the border of a field, a state such as checked, and an icon that carries meaning.
 It also covers the lines and areas of each chart and diagram.
@@ -100,6 +100,10 @@ It MUST stay usable at a width of 320 {abbr-css} pixels, as in criterion 1.4.10.
 It MUST also stay usable with the text spacing values of criterion 1.4.12.
 A product MUST use real text instead of images of text, except for logos, as in criterion 1.4.5.
 People with low vision enlarge text, and scrolling in two directions makes a zoomed page hard to read.
+
+Under the {abbr-wcag} definition, a picture with significant other visual content is not an image of text.
+Diagrams and charts are such pictures.
+The {abbr-fpsot} diagrams specification sets how the text of a diagram stays real text.
 
 == References
 

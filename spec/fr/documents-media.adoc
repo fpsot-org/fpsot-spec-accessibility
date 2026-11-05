@@ -24,7 +24,7 @@ Les balises ajoutées après coup faussent souvent l’ordre de lecture.
 *ACC-032.* Chaque document DOIT avoir un titre dans ses métadonnées, une langue déclarée et des intertitres dans l’ordre.
 Son ordre de lecture DOIT suivre son sens.
 Chaque tableau DOIT marquer ses cellules d’en-tête.
-Chaque image DOIT avoir un équivalent textuel selon l’exigence ACC-018.
+Chaque image DOIT avoir un texte de remplacement selon l’exigence ACC-018.
 Un document de plus de 20 pages DEVRAIT avoir des signets qui suivent ses intertitres.
 Les technologies d’assistance emploient cette structure pour lire un document et s’y déplacer.
 
