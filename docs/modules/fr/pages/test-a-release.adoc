@@ -22,7 +22,7 @@ Observez l’indicateur de focus à chaque étape.
 
 . Rédigez le registre d’essai, avec le nom et la version de chaque outil et de chaque technologie d’assistance.
 
-. Ouvrez un ticket pour chaque échec.
+. Ouvrez un billet pour chaque échec.
 Corrigez avant la version chaque échec qui bloque une tâche.
 
 . Mettez à jour le rapport de conformité, puis chaque déclaration sur l’accessibilité, avec les nouveaux écarts et leurs dates.
@@ -41,4 +41,5 @@ Une bordure à faible contraste dans le pied de page entre dans la déclaration,
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-05 |Première version.
+|0.1.1 |2026-11-07 |Emploie « billet » au lieu de « ticket ».
 |===

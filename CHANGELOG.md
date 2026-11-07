@@ -6,6 +6,15 @@ and versions follow [Semantic Versioning 2.0.0](https://semver.org/spec/v2.0.0.h
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-07
+
+### Changed
+
+- Accessibility values: the page states once, above the values table, that sizes are in CSS pixels; the table cells use the short form. No value changes.
+- Index (English): notes the W3C candidate authorized French translation of WCAG 2.2, as the French index does, and lists it under informative references.
+- The archived copy of EN 301 549 uses the same address as its link (`etsi_en`).
+- French wording: « fonctionner » replaces « marcher », « billet » replaces « ticket », and « composants d’interface » replaces « widgets ».
+
 ## [0.1.0] - 2026-11-05
 
 ### Added

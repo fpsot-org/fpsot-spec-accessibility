@@ -5,13 +5,14 @@ These rules fix the values that designers and authors apply to every screen, doc
 The {abbr-fpsot-first} style and diagrams specifications point to this page.
 They never restate or change a value.
 Each value meets a success criterion of link:https://www.w3.org/TR/WCAG22/[version 2.2] of the {abbr-wcag-first}, and each rule names that criterion.
+Sizes are in {abbr-css-first} pixels, the unit that web browsers use for layout.
 
 [cols="2,3,1",options="header"]
 |===
 |Value |Minimum |Rule
 |Text contrast |4.5:1, or 3:1 for large text |ACC-010
 |Contrast of controls, states and graphics |3:1 |ACC-011
-|Focus indicator |2 {abbr-css-first} pixels thick around the component, with a 3:1 change |ACC-013
+|Focus indicator |2 {abbr-css} pixels thick around the component, with a 3:1 change |ACC-013
 |Target size |24 by 24 {abbr-css} pixels, or 44 by 44 on touch screens |ACC-015
 |Flashes |3 or fewer in any second |ACC-016
 |Moving content |a pause control from the start, for content that lasts over 5 seconds, and no motion when reduced motion is on |ACC-017
@@ -117,4 +118,5 @@ The {abbr-fpsot} diagrams specification sets how the text of a diagram stays rea
 |===
 |Version |Date |Change
 |0.1.0 |2026-11-05 |First version.
+|0.1.1 |2026-11-07 |States once, above the table, that sizes are in CSS pixels. The values do not change.
 |===

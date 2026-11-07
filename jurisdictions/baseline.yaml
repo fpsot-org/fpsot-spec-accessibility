@@ -20,7 +20,7 @@ rows:
     topic: scope
     requirement: {en: "The baseline covers web pages, documents and mobile apps, for the public and for staff.", fr: "La base couvre les pages Web, les documents et les applications mobiles, pour le public et pour le personnel."}
     international: {en: "EN 301 549 applies to all ICT: web pages in clause 9, documents in clause 10 and software, including mobile apps, in clause 11.", fr: "La norme EN 301 549 s’applique à toutes les TIC : les pages Web à l’article 9, les documents à l’article 10 et les logiciels, y compris les applications mobiles, à l’article 11."}
-    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
     fpsot: {en: "Every web page, document and mobile app that a product publishes or generates, including staff and administrator screens.", fr: "Chaque page Web, document et application mobile qu’un produit publie ou produit, y compris les écrans du personnel et de l’administration."}
   - id: ACC-003
     topic: baseline
@@ -86,13 +86,13 @@ rows:
     topic: mobile-apps
     requirement: {en: "Mobile apps meet the baseline.", fr: "Les applications mobiles respectent la base."}
     international: {en: "Clause 11 of EN 301 549 applies the WCAG criteria to software, including mobile apps, and adds rules on platform services.", fr: "L’article 11 de la norme EN 301 549 applique les critères des WCAG aux logiciels, y compris les applications mobiles, et ajoute des règles sur les services de la plateforme."}
-    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
     fpsot: {en: "The baseline as WCAG2ICT applies it, clause 11, the platform accessibility services and the system text size.", fr: "La base telle que WCAG2ICT l’applique, l’article 11, les services d’accessibilité de la plateforme et la taille du texte du système."}
   - id: ACC-030
     topic: documents
     requirement: {en: "Digital documents meet the baseline.", fr: "Les documents numériques respectent la base."}
     international: {en: "Clause 10 of EN 301 549 applies the WCAG criteria to documents that are not web pages.", fr: "L’article 10 de la norme EN 301 549 applique les critères des WCAG aux documents qui ne sont pas des pages Web."}
-    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
     fpsot: {en: "The baseline as WCAG2ICT applies it, and clause 10. PDF files are tagged from structured source, and never only a scanned image.", fr: "La base telle que WCAG2ICT l’applique, et l’article 10. Les fichiers PDF sont balisés à partir d’une source structurée, et jamais une simple image numérisée."}
   - id: ACC-042
     topic: testing
@@ -134,11 +134,11 @@ rows:
     topic: procurement
     requirement: {en: "Calls for tenders require EN 301 549.", fr: "Les appels d’offres exigent la norme EN 301 549."}
     international: {en: "EN 301 549 V4.1.1 sets the accessibility requirements for ICT that public buyers can cite. It aligns with WCAG 2.2.", fr: "La norme EN 301 549 V4.1.1 fixe les exigences d’accessibilité des TIC que les acheteurs publics peuvent citer. Elle s’aligne sur les WCAG 2.2."}
-    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
     fpsot: {en: "EN 301 549 V4.1.1 and ACC-001 to ACC-003, plus any edition that a law names.", fr: "La norme EN 301 549 V4.1.1 et les exigences ACC-001 à ACC-003, ainsi que toute édition qu’une loi nomme."}
   - id: ACC-056
     topic: procurement
     requirement: {en: "Bidders give a conformance report with a gap analysis.", fr: "Les soumissionnaires fournissent un rapport de conformité avec une analyse des écarts."}
     international: {en: "EN 301 549 gives a test method for each requirement, which a conformance report can follow.", fr: "La norme EN 301 549 donne une méthode d’essai pour chaque exigence, qu’un rapport de conformité peut suivre."}
-    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
+    international_source: {title: "EN 301 549, Accessibility requirements for ICT products and services", version: "V4.1.1", date: "2026-09", url: "https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf", archive: "https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf"}
     fpsot: {en: "A conformance report with a gap analysis, based on a test record. No bare statement of conformance.", fr: "Un rapport de conformité avec une analyse des écarts, fondé sur un registre d’essai. Aucune simple affirmation de conformité."}
