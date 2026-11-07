@@ -72,10 +72,10 @@ Les link:https://gazette.gc.ca/rp-pr/p2/2025/2025-12-17/html/sor-dors255-fra.htm
 Avec un format texte, un outil compare facilement deux registres.
 
 [[ACC-047]]
-*ACC-047.* Chaque échec DOIT devenir un ticket qui nomme le critère et l’écran.
+*ACC-047.* Chaque échec DOIT devenir un billet qui nomme le critère et l’écran.
 L’équipe DOIT corriger avant la version tout échec qui bloque une tâche sans autre moyen de la terminer.
 Les autres échecs DOIVENT figurer dans la déclaration sur l’accessibilité avec une date prévue.
-Un ticket suivi reste visible d’une version à l’autre.
+Un billet suivi reste visible d’une version à l’autre.
 
 == Références
 
@@ -95,4 +95,5 @@ Un ticket suivi reste visible d’une version à l’autre.
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-05 |Première version.
+|0.1.1 |2026-11-07 |Emploie « billet » au lieu de « ticket ».
 |===

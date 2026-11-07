@@ -5,13 +5,14 @@ Ces règles fixent les valeurs que le personnel de conception et de rédaction a
 Les spécifications de la {abbr-fpsot-first} sur le style et sur les diagrammes renvoient à cette page.
 Elles ne reprennent ni ne changent jamais une valeur.
 Chaque valeur respecte un critère de succès de la link:https://www.w3.org/TR/WCAG22/[version 2.2] des {abbr-wcag-first}, et chaque règle nomme ce critère.
+Les tailles sont en pixels des {abbr-css-first}, l’unité de mise en page des navigateurs Web.
 
 [cols="2,3,1",options="header"]
 |===
 |Valeur |Minimum |Règle
 |Contraste du texte |4,5:1, ou 3:1 pour le grand texte |ACC-010
 |Contraste des commandes, des états et des graphiques |3:1 |ACC-011
-|Indicateur de focus |2 pixels {abbr-css-first} d’épaisseur autour du composant, avec un changement de 3:1 |ACC-013
+|Indicateur de focus |2 pixels {abbr-css} d’épaisseur autour du composant, avec un changement de 3:1 |ACC-013
 |Taille des cibles |24 sur 24 pixels {abbr-css}, ou 44 sur 44 sur les écrans tactiles |ACC-015
 |Flashs |3 au plus par seconde |ACC-016
 |Contenu en mouvement |une commande de pause dès le début, pour le contenu qui dure plus de 5 secondes, et aucun mouvement quand la réduction des animations est active |ACC-017
@@ -119,4 +120,5 @@ La spécification de la {abbr-fpsot} sur les diagrammes fixe comment le texte d�
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-05 |Première version.
+|0.1.1 |2026-11-07 |Indique une fois, au-dessus du tableau, que les tailles sont en pixels CSS. Les valeurs ne changent pas.
 |===

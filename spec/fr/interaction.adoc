@@ -7,7 +7,7 @@ Chaque règle nomme les critères de succès de la link:https://www.w3.org/TR/WC
 == Clavier et structure
 
 [[ACC-020]]
-*ACC-020.* Chaque fonction DOIT marcher avec le clavier seul, sans piège au clavier.
+*ACC-020.* Chaque fonction DOIT fonctionner avec le clavier seul, sans piège au clavier.
 L’ordre du focus DOIT suivre l’ordre de lecture de l’écran.
 Une personne DOIT pouvoir désactiver ou modifier chaque raccourci formé d’une seule touche de caractère.
 Beaucoup de personnes n’emploient pas de souris, et les personnes qui emploient un lecteur d’écran se déplacent au clavier.
@@ -70,8 +70,8 @@ Les critères des {abbr-wcag} visent le Web, et ces sources fixent comment ils s
 Le critère 1.3.4 fixe la règle sur l’orientation.
 
 [[ACC-028]]
-*ACC-028.* Une fonction qui emploie un glissement ou un geste complexe DOIT aussi marcher avec un simple toucher ou clic.
-Une fonction qui marche en secouant ou en inclinant l’appareil DOIT aussi marcher par une commande.
+*ACC-028.* Une fonction qui emploie un glissement ou un geste complexe DOIT aussi fonctionner avec un simple toucher ou clic.
+Une fonction qui s’active en secouant ou en inclinant l’appareil DOIT aussi fonctionner par une commande.
 La personne DOIT pouvoir désactiver ce mouvement.
 Certaines personnes n’arrivent pas à glisser, à pincer ou à tenir un appareil immobile.
 Les critères 2.5.1, 2.5.4 et 2.5.7 fixent ces règles.
@@ -82,7 +82,7 @@ Les critères 2.5.1, 2.5.4 et 2.5.7 fixent ces règles.
 
 * link:https://www.w3.org/TR/WCAG22/[Web Content Accessibility Guidelines (WCAG) 2.2], W3C, recommandation du W3C, 2024-12-12. link:https://web.archive.org/web/20261103005900/https://www.w3.org/TR/WCAG22/[Copie archivée]
 * link:https://www.w3.org/TR/wai-aria-1.2/[Accessible Rich Internet Applications (WAI-ARIA) 1.2], W3C, recommandation du W3C, 2023-06-06. link:https://web.archive.org/web/20261023151401/https://www.w3.org/TR/wai-aria-1.2/[Copie archivée]
-* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC et ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_EN/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Copie archivée]
+* link:https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[EN 301 549, Accessibility requirements for ICT products and services], CEN, CENELEC et ETSI, V4.1.1, 2026-09. link:https://web.archive.org/web/20261009215647/https://www.etsi.org/deliver/etsi_en/301500_301599/301549/04.01.01_60/en_301549v040101p.pdf[Copie archivée]
 
 === Références informatives
 
@@ -94,4 +94,5 @@ Les critères 2.5.1, 2.5.4 et 2.5.7 fixent ces règles.
 |===
 |Version |Date |Changement
 |0.1.0 |2026-11-05 |Première version.
+|0.1.1 |2026-11-07 |Emploie « fonctionner » au lieu de « marcher ». La copie archivée de la norme EN 301 549 emploie maintenant la même adresse que son lien.
 |===
